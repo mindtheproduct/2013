@@ -1,0 +1,512 @@
+/* Write your CSS! */
+
+/* @include normalize */
+/* @include 1140 */
+
+$blue: #00aeef;
+$blue-light: #82d5f7;
+$blue-dark: #256d87;
+$white: #fff;
+$grey: #858587;
+
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	-moz-transition: $transition-property $transition-time $method;
+	-ms-transition: $transition-property $transition-time $method;
+	-o-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;
+}
+
+@mixin text-shadow($h, $v, $radius, $color) {
+  text-shadow: $h $v $radius $color;
+  -webkit-text-shadow: $h $v $radius $color;
+  -moz-text-shadow: $h $v $radius $color;
+  -o-text-shadow: $h $v $radius $color;
+  filter: dropshadow(color=$color, offx=$h, offy=$v);
+}
+
+@mixin transparent($color, $alpha) {
+  $rgba: rgba($color, $alpha);
+  $ie-hex-str: ie-hex-str($rgba);
+  background-color: transparent;
+  background-color: $rgba;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str});
+  zoom: 1;
+}
+
+@mixin clearfix {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020"; 
+        display: block; 
+        height: 0; 
+        overflow: hidden; 
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/25e0a6");
+
+  
+@font-face {font-family: 'BrandonGrotesque-Thin';src: url('../webfonts/25E0A6_0_0.eot');src: url('../webfonts/25E0A6_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25E0A6_0_0.woff') format('woff'),url('../webfonts/25E0A6_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonGrotesque-Regular';src: url('../webfonts/25E0A6_1_0.eot');src: url('../webfonts/25E0A6_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25E0A6_1_0.woff') format('woff'),url('../webfonts/25E0A6_1_0.ttf') format('truetype');}
+
+
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 110%;
+  color: $white;
+  font-family: 'BrandonGrotesque-Regular';
+  line-height: 1.5;
+}
+
+.background{
+	background: url(../images/bg-2.jpg) no-repeat center center fixed;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	&.background-location{
+		background-image: url(../images/map.jpg);
+		background-position: center top;
+	}
+	&.background-about{
+		background-image: url(../images/bg-about.jpg);
+	}
+	&.background-schedule{
+		background-image: url(../images/bg-schedule.jpg);
+	}
+}
+
+h1{
+	@include transparent(#000, 0.5);
+	font-family: 'BrandonGrotesque-Thin';
+	font-size: 350%;
+	color: #fff;
+	padding: 10px 40px 2px 30px;
+	float: left;
+	clear: both;
+	margin-top: 80px;
+	@include text-shadow(0, 3px, 2px, $blue-dark); 
+}
+
+h2{
+	color: $blue;
+	@include text-shadow(1px, 3px, 2px, $blue-dark);
+	font-size: 180%;
+}
+
+h3{
+	color: $blue;
+	font-size: 150%;
+	@include text-shadow(1px, 3px, 2px, $blue-dark); 
+	span{
+		color: $blue-light;
+		font-weight: bold;
+	}
+}
+
+h4{
+	font-size: 35px;
+	font-family: 'BrandonGrotesque-Thin';
+	line-height: 1.1;
+}
+
+h5{
+	font-size: 105%;
+	text-transform: uppercase;
+}
+
+h6{
+	text-transform: uppercase;
+	font-size: 90%;
+	opacity: 0.5;
+}
+
+p{
+	font-size: 100%;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+a{
+	color: $white;
+	text-decoration: underline;
+	@include transition(all, 0.5s, ease-in-out);
+	&:hover{
+		opacity: 0.6;
+	}
+}
+
+time{
+	font-family: 'BrandonGrotesque-Thin';
+	font-size: 140%;
+}
+
+.button{
+	background: url(../images/circle-blue.png) no-repeat 0 0;
+	height: 122px;
+	width: 230px;
+	position: relative;
+	font-size: 25px;
+	float: right;
+	margin-right: 30px;
+	span{
+		color: #fff;
+		font-size: 14px;
+		display: block;
+		text-align: center;
+		padding: 0 10px 0 0;
+		position: relative;
+		top: -10px;
+	}
+	a{
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		position: relative;
+		z-index: 10000;
+		opacity: 0.9;
+		background: url(../images/arrow.png) no-repeat 100% 65%;
+		@include text-shadow(1px, 2px, 2px, $blue-light); 
+		padding: 30px 30px 10px 30px;
+		text-decoration: none;
+		text-transform: uppercase;
+		line-height: 1;
+		@include transition(all, 0.5s, ease-in-out);
+		&:hover{
+			opacity: 1;
+			@include text-shadow(1px, 1px, 2px, $white); 
+		}
+	}
+}
+
+a.logo{
+	float: left;
+	padding: 15px 60px 15px 15px;
+}
+
+header{
+	display: block;
+	width: 100%;
+	clear: both;
+	background: url(../images/black.png) repeat-x;
+	padding: 0 20px;
+}
+
+nav{
+	text-transform: uppercase;
+	overflow: hidden;
+	font-family: 'BrandonGrotesque-Regular';
+	font-size: 90%;
+	a{
+		color: $white;
+		text-decoration: none;
+		display: block;
+		float: left;
+		opacity: 0.6;
+		padding: 37px 50px 10px 0px;
+		@include transition(all, 1s, ease-in-out);
+		&:hover, &.current{
+			opacity: 1;
+		}
+	}
+	ul{
+		li{
+			display: block;
+			float: left;
+			&.date a{
+				color: $blue;
+				opacity: 0.8;
+				span{
+					color: $blue-light;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+
+footer{
+	@include transparent(#000, 0.7);
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 0;
+	h6{
+		float: left;
+		padding: 0 10px 0 30px;
+	}
+	.sponsoring{
+		background: url(../images/circle-black.png) no-repeat 0 0;
+		width: 245px;
+		height: 108px;
+		display: block;
+		position: absolute;
+		top: -108px;
+		right: 0px;
+		a{
+			background: url(../images/arrow-small.png) no-repeat 68% 100%;
+			color: $blue;
+			text-transform: uppercase;
+			text-decoration: none;
+			padding: 20px 70px 0 0;
+			display: block;
+			float: left;
+			text-align: center;
+			position: relative;
+			line-height: 1;
+			top: 50px;
+			left: 60px;
+			@include text-shadow(1px, 3px, 2px, $blue-dark); 
+			&:hover{
+				opacity: 1;
+				color: $white;
+			}
+		}
+	}
+	a.facebook, a.twitter{
+		background: url(../images/facebook.png) no-repeat 0 0;
+		width: 23px;
+		height: 23px;
+		display: block;
+		float: left;
+		margin-right: 10px;
+		text-indent: -99999px;
+	}
+	a.twitter{
+		background-image: url(../images/twitter.png);
+	}
+}
+
+.content-home{
+	@include transparent(#000, 0.7);
+	clear: both;
+	float: left;
+	padding: 30px;
+	width: 510px;
+	position: relative;
+	h3{
+		margin-bottom: 10px;
+	}
+	p{
+		
+	}
+}
+
+.sponsors{
+	width: 280px;
+	clear: both;
+	float: left;
+	padding: 20px 30px 150px;
+	
+}
+
+.button-home{
+	float: left;
+	a{
+		background-position: 80% 80%;
+	}
+}
+
+.button-location{
+	float: left;
+	clear: both;
+	margin-left: 58px;
+	margin-bottom: 50px;
+	a{
+		background-position: 85% 80%;
+	}
+}
+
+
+
+/*schedule*/
+
+.schedule-details{
+	display: block;
+	float: left;
+	clear: both;
+	padding-bottom: 100px;
+	li{
+		list-style: none;
+		clear: both;
+		padding-top: 50px;
+		img{
+			display: block;
+			float: left;
+			margin-right: 30px;
+		}
+		.content{
+			float: left;
+			width: 400px;
+			time, h2, p{
+				@include transparent(#000, 0.7);
+				display: block;
+				float: left;
+				clear: both;	
+				padding: 10px 30px 5px;			
+			}
+			p{
+				float: none;
+				padding: 10px 30px 40px 30px;
+				margin-bottom: 0;
+				&.position{
+					padding-bottom: 10px;
+				}
+			}
+		}
+	}
+}
+
+.schedule-summary{
+	background: url(../images/circle-schedule.png) no-repeat 0 0;
+	width: 388px;
+	height: 650px;
+	position: fixed;
+	right: 0;
+	top: 60px;
+	z-index: -1;
+	ul{
+		list-style: none;
+		float: right;
+		padding: 90px 50px 50px 0;
+		li{
+			color: $grey;
+			font-style: italic;
+			line-height: 1.8;
+			time{
+				font-size: 100%;
+				padding-right: 10px;
+				text-align: right;
+				display: block;
+				float: left;
+				width: 100px;
+			}
+			a{
+				font-style: normal;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.hotels{
+	clear: both;
+	h6{
+		@include transparent(#000, 0.7);
+		float: left;
+		opacity: 1;
+		color: $grey;
+		padding: 5px 10px;
+	}
+	ol{
+		list-style: none;
+		padding: 30px 30px 30px 0;
+		float: left;
+		clear: both;
+		@include transparent(#000, 0.7);
+		li{
+			padding: 0 0 30px 60px;
+			position: relative;
+			.number{
+				width: 23px;
+				height: 52px;
+				background: url(../images/location-number.png) no-repeat 0% 50%;
+				color: $white;
+				font-size: 30px;
+				text-align: center;
+				padding: 10px 10px 0 0;
+				position: absolute;
+				top: 10%;
+				left: 0;
+			}
+			h5{
+				margin-bottom: 5px;
+				a{
+					text-decoration: none;
+					border-bottom: 1px solid $white;
+				}
+			}
+			p{
+				opacity: 0.6;
+				line-height: 1.3;
+			}
+		}
+	}
+}
+
+.conference-location{
+	color: #000;
+	text-align: center;
+	width: 360px;
+	position: fixed;
+	top: 50%;
+	right: 10%;
+	text-transform: uppercase;
+	h4{
+		margin-bottom: 20px;
+	}
+}
+
+.about-content{
+	@include transparent(#000, 0.7);
+	width: 600px;
+	padding: 50px 50px 100px 50px;
+	display: block;
+	clear: both;
+	h4{
+		margin-bottom: 20px;
+	}
+	h6{
+		margin-top: 50px;
+	}
+}
+
+img.team{
+	position: absolute;
+	top: 250px;
+	right: 0;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+  /* Styles for mobile */
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* Styles for tablet */
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  /* Don't forget your Retina CSS! */
+  
+  body {
+
+  }
+
+}

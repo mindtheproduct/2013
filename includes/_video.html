@@ -1,0 +1,15 @@
+<!-- BigVideo Dependencies -->
+<script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+<!-- @javascript jquery-ui-1.8.22.custom.min -->
+<!-- @javascript jquery.imagesloaded.min -->
+<script src="http://vjs.zencdn.net/c/video.js"></script>
+
+<!-- @javascript bigvideo -->
+
+<script>
+    $(function() {
+        var BV = new $.BigVideo();
+        BV.init();
+        BV.show('crowd.mp4',{ambient:true},{doLoop:true});
+    });
+</script>
