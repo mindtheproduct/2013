@@ -1,5 +1,9 @@
+<?php 
+  $page = "about";
+  $title = "About";
+  include 'includes/_header.php'; 
+?>
 
-<!-- @include _header -->
 <div class="background background-about"></div>
     <h1>About</h1>
     <div class="about-content">
@@ -13,12 +17,12 @@
 	    <p>We are a not for profit company, funded by our generous sponsors and ticket sales, and driven by a passion for great products and the people who build them.</p>
 	    
 	    <h6>This site was designed by</h6>
-	    <a href="http://thisiscapra.com"><img src="<!-- @path images/sponsors/capra-logo.png -->" alt="Capra" /></a>
+	    <a href="http://thisiscapra.com"><img src="assets/images/capra-logo.png" alt="Capra" /></a>
 	    
     </div>
 
 
-   <img class="team" src="<!-- @path images/sponsors/team.png -->" alt="team" />
+   <img class="team" src="assets/images/team.png" alt="team" />
 
   
-<!-- @include _footer -->
+<?php include 'includes/_footer.php'; ?>

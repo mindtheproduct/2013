@@ -52,11 +52,7 @@ $grey: #858587;
 
   
 @font-face {font-family: 'BrandonGrotesque-Thin';src: url('../webfonts/25E0A6_0_0.eot');src: url('../webfonts/25E0A6_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25E0A6_0_0.woff') format('woff'),url('../webfonts/25E0A6_0_0.ttf') format('truetype');}
- 
-  
 @font-face {font-family: 'BrandonGrotesque-Regular';src: url('../webfonts/25E0A6_1_0.eot');src: url('../webfonts/25E0A6_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25E0A6_1_0.woff') format('woff'),url('../webfonts/25E0A6_1_0.ttf') format('truetype');}
-
-
 
 html {
   height: 100%;
@@ -84,7 +80,6 @@ body {
 	position: relative;
 	margin: 0 auto -35px; /* the bottom margin is the negative value of the footer's height */
 }
-
 
 .background{
 	background: #000 url(../images/bg-2.jpg) no-repeat center center fixed;
@@ -280,11 +275,6 @@ footer{
 	width: 100%;
 	padding: 5px 0;
 	height: 25px;
-	&.location{
-		position: fixed;
-		bottom: 0;
-		left: 0;
-	}
 	h6{
 		float: left;
 		padding: 0 10px 0 15px;
@@ -345,17 +335,19 @@ footer{
 		
 	}
 }
+.home-ctas{
+	width: 570px;
+}
 
 .sponsors{
 	width: 280px;
-	clear: both;
 	float: left;
-	padding: 20px 30px 150px;
+	padding: 20px 0 150px 30px;
 	
 }
 
 .button-home{
-	float: left;
+	float: right;
 	a{
 		background-position: 80% 80%;
 	}
@@ -450,6 +442,12 @@ footer{
 	left: 0;
 }
 
+body.location footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
 #map { height:100%;width:100%; }
 #map img { max-width:none; }
 .conference-location {
@@ -541,9 +539,118 @@ img.team{
 	right: 0;
 }
 
+@media all and (min-width: 1200px) {
+	header{
+	  	nav{
+	  		a{
+	  			padding-right: 45px;
+	  		}
+	  	}
+	  }
+}
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  
+
+@media all and (max-width: 1200px) and (min-width: 1050px) {
+	header{
+		a.logo{
+			padding-bottom: 0;
+		}
+	  	nav{
+	  		padding-left: 17px;
+	  		ul{
+	  			width: 100%;
+	  		}
+	  		a{
+	  			padding-right: 25px;
+	  		}
+	  		.button{
+	  			margin-top: 0px;
+	  			position: absolute;
+	  			top: 0;
+	  			right: 0;
+	  		}
+	  	}
+	}
+}
+
+@media all and (max-width: 1050px) and (min-width: 750px) {
+	header{
+		a.logo{
+			padding-bottom: 0;
+		}
+	  	nav{
+	  		background: url(../images/black.png) repeat-x;
+	  		overflow: hidden;
+	  		width: 100%;
+	  		padding-left: 20px;
+	  		ul{
+	  			width: 100%;
+	  		}
+	  		a{
+	  			padding-right: 25px;
+	  			padding-top: 10px;
+	  		}
+	  		.button{
+	  			margin-top: 0px;
+	  			position: absolute;
+	  			top: 0;
+	  			right: 0;
+	  		}
+	  	}
+	}
+}
+
+@media all and (max-width: 750px) and (min-width: 670px) {
+	header{
+		a.logo{
+			padding-bottom: 0;
+			padding-right: 20px;
+		}
+	  	nav{
+	  		background: url(../images/black.png) repeat-x;
+	  		overflow: hidden;
+	  		width: 60%;
+	  		padding-left: 0px;
+	  		ul{
+	  			width: 100%;
+	  			li.date{
+	  				width: 100%;
+	  				padding-top: 20px;
+	  			}
+	  		}
+	  		a{
+	  			padding: 0 20px 0 0;
+	  		}
+	  		.button{
+	  			margin-top: 0px;
+	  			position: absolute;
+	  			top: 0;
+	  			right: 0;
+	  		}
+	  	}
+	}
+	.about-content{
+		width: auto;
+		padding-bottom: 0;
+	}
+	img.team{
+		position: relative;
+		top: 10px;
+	}
+}
+
+@media only screen and (max-width : 670px) {
+  h1{
+  	margin-top: 0;
+  	line-height: 1em;
+  	font-size: 2.5em;
+  }
+  h3{
+  	font-size: 1em;
+  }
+  h4{
+  	font-size: 1.4em;
+  }
   header{
 	  overflow: hidden;
 	  position: relative;
@@ -559,17 +666,15 @@ img.team{
 				  padding: 0;
 				  a{
 					  float: none;
-					  padding: 10px;
+					  padding: 15px;
 					  background: url(../images/black.png);
 					  border-bottom: 1px solid $blue-dark;
 				  }
 				  &.button{
-					  background: none;
-					  float: left;
-					  padding: 10px;
+					  margin: 0 auto;
+					  padding: 0 20px 10px 10px;
 					  width: auto;
 					  a{
-						 text-align: left;
 						 border-bottom: none;
 					 }
 				  }
@@ -577,14 +682,80 @@ img.team{
 		  }
 	  }
   }
+  .content-home, .home-ctas{
+  	width: auto;
+  }
+  .sponsors{
+  	padding-bottom: 70px;
+  }
+  .button.button-home{
+  	float: left;
+  }
+  body.location{
+  	background-color: #000;
+  	nav{
+  		.button{
+  			display: none;
+  		}
+  	}
+  	h1{
+  		display: none;
+  	}
+  	.location-content{
+  		position: relative;
+  	}
+  	.conference-location{
+  		background: url(../images/location-mobile.png) no-repeat 0 0;
+  		height: 307px;
+		margin: -10px 0 0 -130px;
+		padding: 95px 30px 0 20px;
+		text-align: center;
+		width: 218px;
+		font-size: 0.9em;
+		h4{
+			font-size: 1.4em;
+		}
+  	}
+  	footer{
+  		display: none;
+  	}
+  }
+  .hotels{
+  	position: relative;
+  	clear: both;
+  }
+  .about-content{
+  	width: auto;
+  	padding-bottom: 0;
+  }
+  img.team{
+  	position: relative;
+  	top: 10px;
+  }
+  .schedule-details{
+  	li{
+  		.content{
+  			width: 75%;
+  			float: right;
+  			h2{
+  				padding-top: 0;
+  			}
+  			time{
+		  		font-size: 100%;
+		  		padding-bottom: 0px;
+		  	}
+  		}
+	  	img{
+	  		width: 20%;
+	  		height: 20%;
+	  		float: left;
+	  		margin-right: 0;
+	  	}
+  	}
+  }
 
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-  /* Styles for tablet */
-
-}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
 

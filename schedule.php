@@ -1,6 +1,13 @@
-<!-- @include _header -->
-<div class="background background-schedule"></div>
+<?php 
+  $page = "schedule";
+  $title = "Schedule";
+  include 'includes/_header.php'; 
+?>
 
+<?php 
+  $page = "schedule";
+  $title = "Schedule";
+?>
 
     <h1>Schedule</h1>
     
@@ -26,7 +33,7 @@
     <ul class="schedule-details">
     	
     	<li>
-	    	<img src="<!-- @path images/speakers/1.png -->" alt="speakername" />
+	    	<img src="assets/images/speakers/1.png" alt="speakername" />
 	    	<div class="content">
 	    		<time>9.00am</time>
 	    		<h2>Tom Hulme</h2>
@@ -36,7 +43,7 @@
 	    	</div>
     	</li>
     	<li>
-	    	<img src="<!-- @path images/speakers/coming-soon.png -->" alt="speakername" />
+	    	<img src="assets/images/speakers/coming-soon.png" alt="speakername" />
 	    	<div class="content">
 	    		<time>10.00am</time>
 	    		<h2>To Be Announced</h2>
@@ -47,4 +54,4 @@
     </ul>    
 
   
-<!-- @include _footer -->
+<?php include 'includes/_footer.php'; ?>

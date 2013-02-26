@@ -1,6 +1,8 @@
+<?php if(!$page = "location") { ?> 
+	<div class="push"></div>
+	</div> <!-- closes wrapper for sticky footer-->
+<?php } ?> 
 
-<div class="push"></div>
-</div> <!-- closes wrapper for sticky footer-->
 	<footer>
 		<h6>Tell your friends</h6>
 		<a class="facebook" href="#">Facebook</a>
