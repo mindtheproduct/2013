@@ -45,7 +45,7 @@ body.location {
   /* the bottom margin is the negative value of the footer's height */ }
 
 .background {
-  background: black url(../images/bg-2.jpg) no-repeat center center fixed;
+  background: black no-repeat center center fixed;
   width: 100%;
   height: 100%;
   display: block;
@@ -57,13 +57,6 @@ body.location {
   z-index: -1;
   top: 0;
   left: 0; }
-  .background.background-location {
-    background-image: url(../images/map.jpg);
-    background-position: center top; }
-  .background.background-about {
-    background-image: url(../images/bg-about.jpg); }
-  .background.background-schedule {
-    background-image: url(../images/bg-schedule.jpg); }
 
 h1 {
   background-color: transparent;
@@ -160,7 +153,7 @@ time {
     position: relative;
     z-index: 10000;
     opacity: 0.9;
-    background: url(../images/arrow.png) no-repeat 100% 65%;
+    background: url(../images/arrow.png) no-repeat 100% 49%;
     text-shadow: 1px 2px 2px #82d5f7;
     -webkit-text-shadow: 1px 2px 2px #82d5f7;
     -moz-text-shadow: 1px 2px 2px #82d5f7;
@@ -501,8 +494,20 @@ img.team {
 
 @media all and (min-width: 1200px) {
   header nav a {
-    padding-right: 45px; } }
+    padding-right: 45px; }
+
+  .background {
+    background-image: url(../images/bg/bg-about.jpg); }
+    .background.background-about {
+      background-image: url(../images/bg/bg-about.jpg); }
+    .background.background-schedule {
+      background-image: url(../images/bg/bg-schedule.jpg); } }
 @media all and (max-width: 1200px) and (min-width: 1050px) {
+  .background {
+    background-image: url(../images/bg/bg-about.jpg); }
+    .background.background-schedule {
+      background-image: url(../images/bg/bg-schedule.jpg); }
+
   header a.logo {
     padding-bottom: 0; }
   header nav ul {
@@ -515,6 +520,11 @@ img.team {
     top: 0;
     right: 0; } }
 @media all and (max-width: 1050px) and (min-width: 750px) {
+  .background {
+    background-image: url(../images/bg/bg-about-m.jpg); }
+    .background.background-schedule {
+      background-image: url(../images/bg/bg-schedule-m.jpg); }
+
   header {
     overflow: visible;
     position: relative;
@@ -536,6 +546,11 @@ img.team {
         top: 0;
         right: 0; } }
 @media all and (max-width: 750px) and (min-width: 670px) {
+  .background {
+    background-image: url(../images/bg/bg-about-s.jpg); }
+    .background.background-schedule {
+      background-image: url(../images/bg/bg-schedule-s.jpg); }
+
   /*toggle nav yo */
   header a.menu-link {
     display: block;
@@ -586,6 +601,11 @@ img.team {
     top: 10px;
     left: -70px; } }
 @media only screen and (max-width: 670px) {
+  .background {
+    background-image: url(../images/bg/bg-about-xs.jpg); }
+    .background.background-schedule {
+      background-image: url(../images/bg/bg-schedule-xs.jpg); }
+
   h1 {
     margin-top: 1em;
     line-height: 1em;
