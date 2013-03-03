@@ -47,6 +47,8 @@ $grey: #858587;
     }
 }
 
+.clear{clear: both;}
+
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/25e0a6");
 
@@ -70,6 +72,10 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+body.location{
+	background-color: #000;
 }
 
 .wrapper{
@@ -260,6 +266,7 @@ nav{
 			display: block;
 			float: left;
 			&.date a{
+				padding-left: 10px;
 				color: $blue;
 				opacity: 0.8;
 				span{
@@ -391,11 +398,13 @@ footer{
 		img{
 			display: block;
 			float: left;
-			margin-right: 30px;
+			margin-right: 5%;
+			width: 20%;
 		}
 		.content{
 			float: left;
-			width: 400px;
+			width: 75%;
+			max-width: 650px;
 			time, h2, p{
 				@include transparent(#000, 0.7);
 				display: block;
@@ -532,10 +541,11 @@ body.location footer, body.home footer{
 
 .about-content{
 	@include transparent(#000, 0.7);
-	width: 600px;
+	width: 60%;
+	max-width: 600px;
 	padding: 50px 50px 100px 50px;
 	display: block;
-	clear: both;
+	float: left;
 	h4{
 		margin-bottom: 20px;
 	}
@@ -545,9 +555,11 @@ body.location footer, body.home footer{
 }
 
 img.team{
-	position: absolute;
-	top: 250px;
-	right: 0;
+	position: relative;
+	float: right;
+	margin-top: 50px;
+  	width: 30%;
+  	right: -20px;
 }
 
 @media all and (min-width: 1200px) {
@@ -567,7 +579,6 @@ img.team{
 			padding-bottom: 0;
 		}
 	  	nav{
-	  		padding-left: 17px;
 	  		ul{
 	  			width: 100%;
 	  		}
@@ -594,7 +605,6 @@ img.team{
 	  }
 	  nav{
 	  	clear: both;
-	  	padding-left: 10px;
 	  		ul{
 	  			width: 100%;
 	  			background: url(../images/black.png) repeat-x;
@@ -646,7 +656,6 @@ img.team{
 	  	nav{
 	  		background: url(../images/black.png) repeat-x;
 	  		overflow: hidden;
-	  		padding-left: 0px;
 	  		width: 100%;
 	  		a{
 	  			padding: 0 20px 0 0;
@@ -660,12 +669,13 @@ img.team{
 	  	}
 	}
 	.about-content{
-		width: auto;
+		width: 100%;
 		padding-bottom: 0;
 	}
 	img.team{
 		position: relative;
 		top: 10px;
+		left: -70px;
 	}
 }
 
@@ -753,7 +763,6 @@ nav.open ul{
 	padding-bottom: 100px;
 }
   body.location{
-  	background-color: #000;
   	h1{
   		display: none;
   	}
@@ -780,19 +789,9 @@ nav.open ul{
   	position: relative;
   	clear: both;
   }
-  .about-content{
-  	width: auto;
-  	padding-bottom: 0;
-  }
-  img.team{
-  	position: relative;
-  	top: 10px;
-  }
   .schedule-details{
   	li{
   		.content{
-  			width: 75%;
-  			float: right;
   			h2{
   				padding-top: 0;
   			}
@@ -800,15 +799,13 @@ nav.open ul{
 		  		font-size: 100%;
 		  		padding-bottom: 0px;
 		  	}
-  		}
-	  	img{
-	  		width: 20%;
-	  		height: 20%;
-	  		float: left;
-	  		margin-right: 0;
 	  	}
   	}
   }
+  .about-content{
+		width: 75%;
+		padding-bottom: 0;
+	}
 
 }
 

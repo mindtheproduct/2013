@@ -6,6 +6,7 @@
 
 <div class="background background-about"></div>
     <h1>About</h1>
+    <div class="clear">
     <div class="about-content">
 	    <h4>MindTheProduct 2013 is brought to you by a team of four product managers who spend all day building start-ups, and all night building a community for other product managers.</h4>
 	    <p><a href="#">Martin</a> founded <a href="#">ProductTank</a>, a monthly product management meet up in London, which has been running for two years and now has over 900 members in the group and gets 120+ attendees at every meetup.</p>
@@ -20,7 +21,7 @@
 	    <a href="http://thisiscapra.com"><img src="assets/images/capra-logo.png" alt="Capra" /></a>
 	    
     </div>
-
+</div>
 
    <img class="team" src="assets/images/team.png" alt="team" />
 
