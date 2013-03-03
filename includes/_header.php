@@ -36,6 +36,14 @@
     <script type="text/javascript" src="assets/js/map.js"></script>
   <?php } ?>
 
+  <script>
+    jQuery(document).ready(function($){
+      $('.menu-link').click(function(){
+        $('nav').toggleClass('open');
+        return false;
+      });
+    });
+  </script>
 
   <link href="<!-- @path favicon.ico -->" rel="shortcut icon">
   <link href="<!-- @path apple-touch-icon.png -->" rel="apple-touch-icon">

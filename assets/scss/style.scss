@@ -183,9 +183,9 @@ time{
 		font-size: 14px;
 		display: block;
 		text-align: center;
-		padding: 0 10px 0 0;
+		padding: 0 0 0 10px;
 		position: relative;
-		top: -10px;
+		margin-top: 5px;
 	}
 	a{
 		text-align: center;
@@ -226,6 +226,17 @@ header{
 	left: 0;
 	top: 0;
 	z-index: 100;
+	a.menu-link{
+		background: url(../images/menu.png) no-repeat 50% 50%;
+		width: 25px;
+		height: 15px;
+		padding: 10px;
+		margin: 20px 15px 0;
+		display: none;
+		float: right;
+		text-indent: -999999px;
+		position: relative;
+	}
 }
 
 nav{
@@ -442,7 +453,7 @@ footer{
 	left: 0;
 }
 
-body.location footer{
+body.location footer, body.home footer{
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -561,7 +572,7 @@ img.team{
 	  			width: 100%;
 	  		}
 	  		a{
-	  			padding-right: 25px;
+	  			padding-right: 30px;
 	  		}
 	  		.button{
 	  			margin-top: 0px;
@@ -575,20 +586,23 @@ img.team{
 
 @media all and (max-width: 1050px) and (min-width: 750px) {
 	header{
-		a.logo{
-			padding-bottom: 0;
-		}
-	  	nav{
-	  		background: url(../images/black.png) repeat-x;
-	  		overflow: hidden;
-	  		width: 100%;
-	  		padding-left: 20px;
+	  overflow: visible;
+	  position: relative;
+	  height: auto;
+	  a.logo{
+		  padding-bottom: 0;
+	  }
+	  nav{
+	  	clear: both;
+	  	padding-left: 10px;
 	  		ul{
 	  			width: 100%;
+	  			background: url(../images/black.png) repeat-x;
+	  			height: 60px;
 	  		}
 	  		a{
 	  			padding-right: 25px;
-	  			padding-top: 10px;
+	  			padding-top: 20px;
 	  		}
 	  		.button{
 	  			margin-top: 0px;
@@ -601,6 +615,29 @@ img.team{
 }
 
 @media all and (max-width: 750px) and (min-width: 670px) {
+	/*toggle nav yo */
+	header a.menu-link{ 
+		display:block; 
+		position: absolute;
+		right: 230px;
+	}
+
+	nav ul{ 
+		height: 0px;
+		overflow: hidden; 
+		position: relative;
+		@include transition(all, 0.5s, ease-in-out);
+	}
+	nav.open ul{ 
+		height: 100px; 
+		width: 100%;
+		position: relative;
+		top: 60px;
+		right: 30px;
+		background: url(../images/black.png) repeat-x;
+		overflow: auto; 
+		z-index: 100;
+	}
 	header{
 		a.logo{
 			padding-bottom: 0;
@@ -609,15 +646,8 @@ img.team{
 	  	nav{
 	  		background: url(../images/black.png) repeat-x;
 	  		overflow: hidden;
-	  		width: 60%;
 	  		padding-left: 0px;
-	  		ul{
-	  			width: 100%;
-	  			li.date{
-	  				width: 100%;
-	  				padding-top: 20px;
-	  			}
-	  		}
+	  		width: 100%;
 	  		a{
 	  			padding: 0 20px 0 0;
 	  		}
@@ -641,7 +671,7 @@ img.team{
 
 @media only screen and (max-width : 670px) {
   h1{
-  	margin-top: 0;
+  	margin-top: 1em;
   	line-height: 1em;
   	font-size: 2.5em;
   }
@@ -652,7 +682,7 @@ img.team{
   	font-size: 1.4em;
   }
   header{
-	  overflow: hidden;
+	  overflow: visible;
 	  position: relative;
 	  height: auto;
 	  a.logo{
@@ -661,6 +691,7 @@ img.team{
 	  nav{
 	  	clear: both;
 		  ul{
+		  	z-index: 10000;
 			  li{
 				  float: none;
 				  padding: 0;
@@ -670,34 +701,59 @@ img.team{
 					  background: url(../images/black.png);
 					  border-bottom: 1px solid $blue-dark;
 				  }
-				  &.button{
-					  margin: 0 auto;
-					  padding: 0 20px 10px 10px;
-					  width: auto;
-					  a{
-						 border-bottom: none;
-					 }
-				  }
 			  }
 		  }
 	  }
   }
-  .content-home, .home-ctas{
-  	width: auto;
-  }
-  .sponsors{
-  	padding-bottom: 70px;
-  }
-  .button.button-home{
-  	float: left;
-  }
+ /*toggle nav yo */
+header a.menu-link{ display:block; }
+
+nav ul{ 
+	height: 0px;
+	overflow: hidden; 
+	position: relative;
+	@include transition(all, 0.5s, ease-in-out);
+}
+nav.open ul{ 
+	height: 220px; 
+	width: 100%;
+	position: relative;
+	overflow: auto; 
+	z-index: 100;
+}
+
+.button{
+	@include transparent($blue, 0.5);
+	background-image: none;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	height: 60px;
+	a{
+		text-align: center;
+		float: none;
+		margin: 0 auto;
+		border-bottom: none;
+		padding: 10px 40px 0 0;
+		background-position: 71% 40%;
+	}
+	&.button-home{
+		height: 45px;
+		margin-bottom: 40px;
+		a{
+			background-position: 85% 80%;
+		}
+	}
+}
+
+.content-home, .home-ctas{
+	width: auto;
+}
+.sponsors{
+	padding-bottom: 100px;
+}
   body.location{
   	background-color: #000;
-  	nav{
-  		.button{
-  			display: none;
-  		}
-  	}
   	h1{
   		display: none;
   	}

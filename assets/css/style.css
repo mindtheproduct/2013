@@ -144,9 +144,9 @@ time {
     font-size: 14px;
     display: block;
     text-align: center;
-    padding: 0 10px 0 0;
+    padding: 0 0 0 10px;
     position: relative;
-    top: -10px; }
+    margin-top: 5px; }
   .button a {
     text-align: center;
     margin: 0 auto;
@@ -194,6 +194,16 @@ header {
   left: 0;
   top: 0;
   z-index: 100; }
+  header a.menu-link {
+    background: url(../images/menu.png) no-repeat 50% 50%;
+    width: 25px;
+    height: 15px;
+    padding: 10px;
+    margin: 20px 15px 0;
+    display: none;
+    float: right;
+    text-indent: -999999px;
+    position: relative; }
 
 nav {
   text-transform: uppercase;
@@ -382,7 +392,7 @@ footer {
   top: 0;
   left: 0; }
 
-body.location footer {
+body.location footer, body.home footer {
   position: fixed;
   bottom: 0;
   left: 0; }
@@ -488,44 +498,69 @@ img.team {
     header nav ul {
       width: 100%; }
     header nav a {
-      padding-right: 25px; }
+      padding-right: 30px; }
     header nav .button {
       margin-top: 0px;
       position: absolute;
       top: 0;
       right: 0; } }
 @media all and (max-width: 1050px) and (min-width: 750px) {
-  header a.logo {
-    padding-bottom: 0; }
-  header nav {
-    background: url(../images/black.png) repeat-x;
-    overflow: hidden;
-    width: 100%;
-    padding-left: 20px; }
-    header nav ul {
-      width: 100%; }
-    header nav a {
-      padding-right: 25px;
-      padding-top: 10px; }
-    header nav .button {
-      margin-top: 0px;
-      position: absolute;
-      top: 0;
-      right: 0; } }
+  header {
+    overflow: visible;
+    position: relative;
+    height: auto; }
+    header a.logo {
+      padding-bottom: 0; }
+    header nav {
+      clear: both;
+      padding-left: 10px; }
+      header nav ul {
+        width: 100%;
+        background: url(../images/black.png) repeat-x;
+        height: 60px; }
+      header nav a {
+        padding-right: 25px;
+        padding-top: 20px; }
+      header nav .button {
+        margin-top: 0px;
+        position: absolute;
+        top: 0;
+        right: 0; } }
 @media all and (max-width: 750px) and (min-width: 670px) {
+  /*toggle nav yo */
+  header a.menu-link {
+    display: block;
+    position: absolute;
+    right: 230px; }
+
+  nav ul {
+    height: 0px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+
+  nav.open ul {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    right: 30px;
+    background: url(../images/black.png) repeat-x;
+    overflow: auto;
+    z-index: 100; }
+
   header a.logo {
     padding-bottom: 0;
     padding-right: 20px; }
   header nav {
     background: url(../images/black.png) repeat-x;
     overflow: hidden;
-    width: 60%;
-    padding-left: 0px; }
-    header nav ul {
-      width: 100%; }
-      header nav ul li.date {
-        width: 100%;
-        padding-top: 20px; }
+    padding-left: 0px;
+    width: 100%; }
     header nav a {
       padding: 0 20px 0 0; }
     header nav .button {
@@ -543,7 +578,7 @@ img.team {
     top: 10px; } }
 @media only screen and (max-width: 670px) {
   h1 {
-    margin-top: 0;
+    margin-top: 1em;
     line-height: 1em;
     font-size: 2.5em; }
 
@@ -554,41 +589,76 @@ img.team {
     font-size: 1.4em; }
 
   header {
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     height: auto; }
     header a.logo {
       padding-bottom: 0; }
     header nav {
       clear: both; }
-      header nav ul li {
-        float: none;
-        padding: 0; }
-        header nav ul li a {
+      header nav ul {
+        z-index: 10000; }
+        header nav ul li {
           float: none;
-          padding: 15px;
-          background: url(../images/black.png);
-          border-bottom: 1px solid #256d87; }
-        header nav ul li.button {
-          margin: 0 auto;
-          padding: 0 20px 10px 10px;
-          width: auto; }
-          header nav ul li.button a {
-            border-bottom: none; }
+          padding: 0; }
+          header nav ul li a {
+            float: none;
+            padding: 15px;
+            background: url(../images/black.png);
+            border-bottom: 1px solid #256d87; }
+
+  /*toggle nav yo */
+  header a.menu-link {
+    display: block; }
+
+  nav ul {
+    height: 0px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+
+  nav.open ul {
+    height: 220px;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    z-index: 100; }
+
+  .button {
+    background-color: transparent;
+    background-color: rgba(0, 174, 239, 0.5);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8000AEEF,endColorstr=#8000AEEF);
+    zoom: 1;
+    background-image: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 60px; }
+    .button a {
+      text-align: center;
+      float: none;
+      margin: 0 auto;
+      border-bottom: none;
+      padding: 10px 40px 0 0;
+      background-position: 71% 40%; }
+    .button.button-home {
+      height: 45px;
+      margin-bottom: 40px; }
+      .button.button-home a {
+        background-position: 85% 80%; }
 
   .content-home, .home-ctas {
     width: auto; }
 
   .sponsors {
-    padding-bottom: 70px; }
-
-  .button.button-home {
-    float: left; }
+    padding-bottom: 100px; }
 
   body.location {
     background-color: #000; }
-    body.location nav .button {
-      display: none; }
     body.location h1 {
       display: none; }
     body.location .location-content {
