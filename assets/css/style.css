@@ -337,6 +337,8 @@ footer {
     list-style: none;
     clear: both;
     padding-top: 50px; }
+    .schedule-details li.coming-soon .content h2 {
+      margin-top: 10%; }
     .schedule-details li img {
       display: block;
       float: left;
@@ -708,7 +710,8 @@ img.team {
     clear: both; }
 
   .schedule-details li .content h2 {
-    padding-top: 0; }
+    padding-top: 0;
+    line-height: 1; }
   .schedule-details li .content time {
     font-size: 100%;
     padding-bottom: 0px; }

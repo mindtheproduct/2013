@@ -5,10 +5,10 @@
 
 	<footer>
 		<h6>Tell your friends</h6>
-		<a class="facebook" href="#">Facebook</a>
-		<a class="twitter" href="#">Twitter</a>
+		<a class="facebook" href="http://www.facebook.com/MindTheProduct">MindTheProduct on Facebook</a>
+		<a class="twitter" href="https://twitter.com/mindtheproduct">MindTheProduct on Twitter</a>
 		<div class="sponsoring">
-			<a href="#">Interested in Sponsoring?</a>
+			<a href="http://conference.mindtheproduct.com/sponsorpack.pdf" target="_blank" alt="download pdf sponsor pack">Interested in Sponsoring?</a>
 		</div>
 	</footer>
 </body>
