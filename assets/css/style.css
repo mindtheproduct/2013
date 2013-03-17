@@ -306,12 +306,14 @@ footer {
     margin-bottom: 10px; }
 
 .home-ctas {
-  width: 570px; }
+  width: 570px;
+  overflow: hidden;
+  clear: both; }
 
 .sponsors {
   width: 280px;
   float: left;
-  padding: 20px 0 150px 30px; }
+  padding: 20px 0 200px 30px; }
 
 .button-home {
   float: right; }
@@ -571,10 +573,9 @@ img.team {
 
   nav.open ul {
     height: 100px;
-    width: 100%;
     position: relative;
     top: 60px;
-    right: 30px;
+    right: 0px;
     background: url(../images/black.png) repeat-x;
     overflow: auto;
     z-index: 100; }
@@ -644,6 +645,7 @@ img.team {
 
   nav ul {
     height: 0px;
+    width: 100%;
     overflow: hidden;
     position: relative;
     -webkit-transition: all 0.5s ease-in-out;
@@ -681,6 +683,10 @@ img.team {
       margin-bottom: 40px; }
       .button.button-home a {
         background-position: 85% 80%; }
+    .button.button-location {
+      padding: 0 0 8px; }
+      .button.button-location a {
+        background-position: 68% 58%; }
 
   .content-home, .home-ctas {
     width: auto; }

@@ -1,5 +1,7 @@
-<a class="logo" href="/index.php"><img src="assets/images/mtp-logo.png" alt="Mind The Product 2013" /></a>
-	<a class="menu-link" href="#">Menu</a>
+<a class="logo" href="/index.php">
+	<img src="assets/images/mtp-logo.png" alt="Mind The Product 2013" />
+</a>
+<a class="menu-link" href="#">Menu</a>
 <nav>
 
   <ul>

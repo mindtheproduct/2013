@@ -343,12 +343,14 @@ footer{
 
 .home-ctas{
 	width: 570px;
+	overflow: hidden;
+	clear: both;
 }
 
 .sponsors{
 	width: 280px;
 	float: left;
-	padding: 20px 0 150px 30px;
+	padding: 20px 0 200px 30px;
 }
 
 .button-home{
@@ -653,19 +655,17 @@ img.team{
 		position: absolute;
 		right: 230px;
 	}
-
 	nav ul{ 
 		height: 0px;
-		overflow: hidden; 
+		overflow: hidden;
 		position: relative;
 		@include transition(all, 0.5s, ease-in-out);
 	}
 	nav.open ul{ 
 		height: 100px; 
-		width: 100%;
 		position: relative;
 		top: 60px;
-		right: 30px;
+		right: 0px;
 		background: url(../images/black.png) repeat-x;
 		overflow: auto; 
 		z-index: 100;
@@ -744,10 +744,11 @@ img.team{
 	  	}
 	}
  	/*toggle nav yo */
-	header a.menu-link{ display:block; }
+	header a.menu-link{display: block;}
 
 	nav ul{ 
 		height: 0px;
+		width: 100%;
 		overflow: hidden; 
 		position: relative;
 		@include transition(all, 0.5s, ease-in-out);
@@ -780,6 +781,12 @@ img.team{
 			margin-bottom: 40px;
 			a{
 				background-position: 85% 80%;
+			}
+		}
+		&.button-location{
+			padding: 0 0 8px;
+			a{
+				background-position: 68% 58%;
 			}
 		}
 	}

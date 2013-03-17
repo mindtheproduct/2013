@@ -15,12 +15,9 @@
     <div class="button button-home">
       <a href="schedule.php">See the full line-up</a>
     </div> 
-    <!--div class="sponsors">
-    	<h6>Sponsored by</h6>
-    	<a href="#"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
-    	<a href="#"><img src="assets/images/logos/guardian.png" alt="guardian" /></a>
-    	<a href="#"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
-    </div-->
+    <div class="sponsors">
+    	<!--h6>Sponsored by</h6-->
+    </div>
   </div>
 
 <?php include 'includes/_footer.php'; ?>
