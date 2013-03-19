@@ -75,7 +75,8 @@ h1 {
   -webkit-text-shadow: 0 3px 2px #256d87;
   -moz-text-shadow: 0 3px 2px #256d87;
   -o-text-shadow: 0 3px 2px #256d87;
-  filter: dropshadow(color=#256d87, offx=0, offy=3px); }
+  filter: dropshadow(color=#256d87, offx=0, offy=3px);
+  font-weight: normal; }
 
 h2 {
   color: #00aeef;
@@ -84,7 +85,8 @@ h2 {
   -moz-text-shadow: 1px 3px 2px #256d87;
   -o-text-shadow: 1px 3px 2px #256d87;
   filter: dropshadow(color=#256d87, offx=1px, offy=3px);
-  font-size: 180%; }
+  font-size: 180%;
+  font-weight: normal; }
 
 h3 {
   color: #00aeef;
@@ -93,24 +95,27 @@ h3 {
   -webkit-text-shadow: 1px 3px 2px #256d87;
   -moz-text-shadow: 1px 3px 2px #256d87;
   -o-text-shadow: 1px 3px 2px #256d87;
-  filter: dropshadow(color=#256d87, offx=1px, offy=3px); }
+  filter: dropshadow(color=#256d87, offx=1px, offy=3px);
+  font-weight: normal; }
   h3 span {
-    color: #82d5f7;
-    font-weight: bold; }
+    color: #82d5f7; }
 
 h4 {
   font-size: 35px;
   font-family: 'BrandonGrotesque-Thin';
-  line-height: 1.1; }
+  line-height: 1.1;
+  font-weight: normal; }
 
 h5 {
   font-size: 105%;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: normal; }
 
 h6 {
   text-transform: uppercase;
   font-size: 90%;
-  opacity: 0.5; }
+  opacity: 0.5;
+  font-weight: normal; }
 
 p {
   font-size: 100%;

@@ -32,6 +32,17 @@
     </div>-->
     <ul class="schedule-details">
     	
+
+        <li>
+            <img src="assets/images/speakers/caterina-fake.png" alt="Caterina Fake" />
+            <div class="content">
+                <!--<time>9.00am</time>-->
+                <h2>Caterina Fake</h2>
+                <p class="position">Founder, Findery<br />
+                <a href="https://twitter.com/caterina">@caterina</a></p>
+                <p>Caterina is founder and CEO of Findery, which makes places come alive. Caterina also co-founded Flickr, almost certainly the best photo sharing and management application in the world, and was cofounder of Hunch - building the taste graph for the internet. She serves as Chairman of the Board at Etsy, serves on the board of Creative Commons and is an active angel investor.</p>
+            </div>
+        </li>
     	<li>
 	    	<img src="assets/images/speakers/cennydd-bowles.png" alt="Cennydd Bowles" />
 	    	<div class="content">
@@ -86,7 +97,7 @@
 	    	<img src="assets/images/speakers/coming-soon.png" alt="blank" />
 	    	<div class="content">
 	    		<!--time>10.00am</time-->
-	    		<h2>+4 slots to be announced</h2>
+	    		<h2>+3 more speakers to be announced</h2>
 	    	</div>
     	</li>
     
