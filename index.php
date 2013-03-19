@@ -13,7 +13,7 @@
   </div>
   <div class="home-ctas">
     <div class="button button-home">
-      <a href="schedule.php">See the full line-up</a>
+      <a href="schedule">See the full line-up</a>
     </div> 
     <div class="sponsors">
     	<!--h6>Sponsored by</h6-->
