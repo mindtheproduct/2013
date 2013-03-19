@@ -65,6 +65,7 @@ html {
 
 body {
   font-size: 110%;
+  background-color: #000;
   color: $white;
   font-family: 'BrandonGrotesque-Regular';
   line-height: 1.5;
@@ -315,18 +316,25 @@ footer{
 			}
 		}
 	}
-	a.facebook, a.twitter{
-		background: url(../images/facebook.png) no-repeat 0 0;
-		width: 23px;
-		height: 23px;
-		display: block;
-		float: left;
-		margin-right: 10px;
-		text-indent: -99999px;
-	}
-	a.twitter{
-		background-image: url(../images/twitter.png);
-	}
+}
+
+.fb-root{
+	display: none;
+}
+
+.fb_edge_widget_with_comment{
+	top: -5px;
+	margin: 0 10px;
+}
+
+iframe.twitter-share-button{
+	position: relative;
+	top: 3px;
+}
+
+#___plusone_0{
+	position: relative;
+	top: 2px;
 }
 
 .content-home{
@@ -452,7 +460,7 @@ footer{
 	left: 0;
 }
 
-body.location footer, body.home footer{
+body.location footer{
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -477,6 +485,10 @@ body.location footer, body.home footer{
 	color: #000;
 	text-align: center;
 	text-transform: uppercase;
+	a{
+		color: #000;
+		text-decoration: none;
+	}
 	h4{
 		margin-bottom: 20px;
 	}
@@ -699,6 +711,11 @@ img.team{
 		top: 10px;
 		left: -70px;
 	}
+	footer{
+		h6{
+			display: none;
+		}
+	}
 }
 
 @media only screen and (max-width : 670px) {
@@ -841,6 +858,20 @@ img.team{
 	.about-content{
 		width: 75%;
 		padding-bottom: 0;
+	}
+	footer{
+		height: auto;
+		h6{
+			display: none;
+		}
+	}
+	iframe{
+		display: block;
+		top: 0;
+		margin: 0 0 10px 10px !important;
+	}
+	.fb_edge_widget_with_comment{
+		margin: 0;
 	}
 }
 

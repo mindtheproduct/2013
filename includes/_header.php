@@ -74,9 +74,11 @@
   <div class="background background-about"></div>
 <?php } ?> 
 
-<?php if(!$page == "location") { ?> 
+<?php if($page == "home") { ?> 
   <div class="wrapper">
 <?php } ?> 
+
+
 
   <header>
   	<?php include 'includes/_nav.php'; ?>

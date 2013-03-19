@@ -19,6 +19,7 @@
     	<!--h6>Sponsored by</h6-->
     </div>
   </div>
+</div><!--closes wrapper-->
 
 <?php include 'includes/_footer.php'; ?>
 

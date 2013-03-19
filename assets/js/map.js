@@ -34,7 +34,7 @@ $(function() {
 		draggable: false,
 		shadow: false,
 		anchor: RichMarkerPosition.TOP_LEFT,
-		content: '<div class="conference-location"><h4>Mermaid Conference Center</h4><h5>PUDDLE DOCK, <br />LONDON, BLACKFRIARS<br />EC4V 3DB</h5></div>'
+		content: '<div class="conference-location"><a href="https://maps.google.co.uk/maps?ie=UTF8&cid=12291073452166057833&q=The+Mermaid+Conference+%26+Events+Centre&iwloc=A&gl=GB&hl=en" target="_blank"><h4>Mermaid Conference Center</h4><h5>PUDDLE DOCK, <br />LONDON, BLACKFRIARS<br />EC4V 3DB</h5></a></div>'
 	});
 	
 	var marker, i;

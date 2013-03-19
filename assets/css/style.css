@@ -24,6 +24,7 @@ html {
 
 body {
   font-size: 110%;
+  background-color: #000;
   color: white;
   font-family: 'BrandonGrotesque-Regular';
   line-height: 1.5;
@@ -281,16 +282,21 @@ footer {
       footer .sponsoring a:hover {
         opacity: 1;
         color: white; }
-  footer a.facebook, footer a.twitter {
-    background: url(../images/facebook.png) no-repeat 0 0;
-    width: 23px;
-    height: 23px;
-    display: block;
-    float: left;
-    margin-right: 10px;
-    text-indent: -99999px; }
-  footer a.twitter {
-    background-image: url(../images/twitter.png); }
+
+.fb-root {
+  display: none; }
+
+.fb_edge_widget_with_comment {
+  top: -5px;
+  margin: 0 10px; }
+
+iframe.twitter-share-button {
+  position: relative;
+  top: 3px; }
+
+#___plusone_0 {
+  position: relative;
+  top: 2px; }
 
 .content-home {
   background-color: transparent;
@@ -398,7 +404,7 @@ footer {
   top: 0;
   left: 0; }
 
-body.location footer, body.home footer {
+body.location footer {
   position: fixed;
   bottom: 0;
   left: 0; }
@@ -420,6 +426,9 @@ body.location footer, body.home footer {
   color: #000;
   text-align: center;
   text-transform: uppercase; }
+  .conference-location a {
+    color: #000;
+    text-decoration: none; }
   .conference-location h4 {
     margin-bottom: 20px; }
 
@@ -602,7 +611,10 @@ img.team {
   img.team {
     position: relative;
     top: 10px;
-    left: -70px; } }
+    left: -70px; }
+
+  footer h6 {
+    display: none; } }
 @media only screen and (max-width: 670px) {
   .background {
     background-image: url(../images/bg/bg-about-xs.jpg); }
@@ -724,6 +736,19 @@ img.team {
 
   .about-content {
     width: 75%;
-    padding-bottom: 0; } }
+    padding-bottom: 0; }
+
+  footer {
+    height: auto; }
+    footer h6 {
+      display: none; }
+
+  iframe {
+    display: block;
+    top: 0;
+    margin: 0 0 10px 10px !important; }
+
+  .fb_edge_widget_with_comment {
+    margin: 0; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   /* Don't forget your Retina CSS! */ }
