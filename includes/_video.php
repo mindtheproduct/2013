@@ -9,8 +9,11 @@
 
 <script>
     $(function() {
-        var BV = new $.BigVideo();
+        var BV = new $.BigVideo({useFlashForFirefox:false});
         BV.init();
-        BV.show('mtp-ambience.mp4',{ambient:true},{doLoop:true});
+        if (Modernizr.touch) {
+    		BV.show('sunrise.jpg');
+		} else {
+        BV.show('mtp-ambience.mp4',{altSource:'mtp-ambience.ogv'},{ambient:true},{doLoop:true});
     });
 </script>
