@@ -7,6 +7,8 @@
 
 <script type="text/javascript" src="assets/js/bigvideo.js"></script>
 
+<script src="assets/js/modernizr.custom.46399.js"></script>
+
 <script>
     $(function() {
         var BV = new $.BigVideo({useFlashForFirefox:false});
