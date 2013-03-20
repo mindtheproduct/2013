@@ -17,5 +17,6 @@
     		BV.show('sunrise.jpg');
 		} else {
         BV.show('mtp-ambience.mp4',{altSource:'mtp-ambience.ogv'},{ambient:true},{doLoop:true});
+    	}
     });
 </script>
