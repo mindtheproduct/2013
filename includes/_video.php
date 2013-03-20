@@ -16,7 +16,7 @@
         if (Modernizr.touch) {
     		BV.show('sunrise.jpg');
 		} else {
-        BV.show('mtp-ambience.mp4',{altSource:'mtp-ambience.ogv'},{ambient:true},{doLoop:true});
+        BV.show('mtp-ambience.mp4',{ambient:true},{doLoop:true},{altSource:'mtp-ambience.ogv'});
     	}
     });
 </script>
