@@ -9,7 +9,7 @@
 
 <script>
     $(function() {
-        var BV = new $.BigVideo({useFlashForFirefox:false});
+        var BV = new $.BigVideo();
         BV.init();
         BV.show('http://cdn.mindtheproduct.com/mtp-ambience.mp4',{ambient:true},{doLoop:true},{altSource:'http://cdn.mindtheproduct.com/mtp-ambience.ogv'});
     });
