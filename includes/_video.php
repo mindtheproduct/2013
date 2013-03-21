@@ -11,6 +11,6 @@
     $(function() {
         var BV = new $.BigVideo();
         BV.init();
-        BV.show('mtp-ambience.mp4',{ambient:true},{doLoop:true});
+        BV.show('http://cdn.mindtheproduct.com/mtp-ambience.mp4',{ambient:true},{doLoop:true});
     });
 </script>
