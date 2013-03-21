@@ -9,8 +9,8 @@
 
 <script>
     $(function() {
-        var BV = new $.BigVideo();
+        var BV = new $.BigVideo(useFlashForFirefox:false);
         BV.init();
-        BV.show('http://cdn.mindtheproduct.com/mtp-ambience.mp4',{ambient:true},{doLoop:true},{altSource:'http://cdn.mindtheproduct.com/mtp-ambience.ogv'});
+        BV.show('http://cdn.mindtheproduct.com/mtp-ambience.mp4',{ambient:true, doLoop:true, altSource:'http://cdn.mindtheproduct.com/mtp-ambience.ogv'});
     });
 </script>
