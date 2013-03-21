@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="assets/css/1140.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
 
-  <script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
   <script type="text/javascript" src="assets/js/app.js"></script>
   
