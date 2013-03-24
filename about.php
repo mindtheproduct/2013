@@ -19,11 +19,14 @@
 	    
 	    <h6>This site was designed by</h6>
 	    <a href="http://thisiscapra.com"><img src="assets/images/capra-logo.png" alt="Capra" /></a>
-	    
+	    <div class="video-container">
+	    	<iframe src="http://player.vimeo.com/video/50825718?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	    </div>
     </div>
 </div>
-
-   <img class="team" src="assets/images/team.png" alt="team" />
-
-  
+<div class="team">
+   <img class="team" src="assets/images/speakers/jana.png" alt="Jana" />
+	<img class="team" src="assets/images/speakers/simon.png" alt="Simon" />
+	<img class="team" src="assets/images/speakers/martin.png" alt="Martin" />
+ </div> 
 <?php include 'includes/_footer.php'; ?>

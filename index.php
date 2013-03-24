@@ -16,7 +16,9 @@
       <a href="schedule">See the full line-up</a>
     </div> 
     <div class="sponsors">
-    	<!--h6>Sponsored by</h6-->
+    	<h6>Sponsored by</h6>
+      <a href="http://ebay.co.uk"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
+      <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
     </div>
   </div>
 </div><!--closes wrapper-->

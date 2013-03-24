@@ -46,7 +46,7 @@ body.location {
   /* the bottom margin is the negative value of the footer's height */ }
 
 .background {
-  background: black no-repeat center center fixed;
+  background: black url(../images/bg/speaking.jpg) no-repeat center center fixed;
   width: 100%;
   height: 100%;
   display: block;
@@ -58,6 +58,8 @@ body.location {
   z-index: -1;
   top: 0;
   left: 0; }
+  .background.background-about {
+    background-image: url(../images/bg/drinks.jpg); }
 
 h1 {
   background-color: transparent;
@@ -75,27 +77,24 @@ h1 {
   -webkit-text-shadow: 0 3px 2px #256d87;
   -moz-text-shadow: 0 3px 2px #256d87;
   -o-text-shadow: 0 3px 2px #256d87;
-  filter: dropshadow(color=#256d87, offx=0, offy=3px);
   font-weight: normal; }
 
 h2 {
   color: #00aeef;
-  text-shadow: 1px 3px 2px #256d87;
-  -webkit-text-shadow: 1px 3px 2px #256d87;
-  -moz-text-shadow: 1px 3px 2px #256d87;
-  -o-text-shadow: 1px 3px 2px #256d87;
-  filter: dropshadow(color=#256d87, offx=1px, offy=3px);
+  text-shadow: 1px 2px 2px #256d87;
+  -webkit-text-shadow: 1px 2px 2px #256d87;
+  -moz-text-shadow: 1px 2px 2px #256d87;
+  -o-text-shadow: 1px 2px 2px #256d87;
   font-size: 180%;
   font-weight: normal; }
 
 h3 {
   color: #00aeef;
   font-size: 150%;
-  text-shadow: 1px 3px 2px #256d87;
-  -webkit-text-shadow: 1px 3px 2px #256d87;
-  -moz-text-shadow: 1px 3px 2px #256d87;
-  -o-text-shadow: 1px 3px 2px #256d87;
-  filter: dropshadow(color=#256d87, offx=1px, offy=3px);
+  text-shadow: 1px 2px 2px #256d87;
+  -webkit-text-shadow: 1px 2px 2px #256d87;
+  -moz-text-shadow: 1px 2px 2px #256d87;
+  -o-text-shadow: 1px 2px 2px #256d87;
   font-weight: normal; }
   h3 span {
     color: #82d5f7; }
@@ -164,7 +163,6 @@ time {
     -webkit-text-shadow: 1px 2px 2px #82d5f7;
     -moz-text-shadow: 1px 2px 2px #82d5f7;
     -o-text-shadow: 1px 2px 2px #82d5f7;
-    filter: dropshadow(color=#82d5f7, offx=1px, offy=2px);
     padding: 30px 30px 10px 30px;
     text-decoration: none;
     text-transform: uppercase;
@@ -179,8 +177,7 @@ time {
       text-shadow: 1px 1px 2px white;
       -webkit-text-shadow: 1px 1px 2px white;
       -moz-text-shadow: 1px 1px 2px white;
-      -o-text-shadow: 1px 1px 2px white;
-      filter: dropshadow(color=white, offx=1px, offy=1px); }
+      -o-text-shadow: 1px 1px 2px white; }
 
 a.logo {
   float: left;
@@ -282,8 +279,7 @@ footer {
       text-shadow: 1px 3px 2px #256d87;
       -webkit-text-shadow: 1px 3px 2px #256d87;
       -moz-text-shadow: 1px 3px 2px #256d87;
-      -o-text-shadow: 1px 3px 2px #256d87;
-      filter: dropshadow(color=#256d87, offx=1px, offy=3px); }
+      -o-text-shadow: 1px 3px 2px #256d87; }
       footer .sponsoring a:hover {
         opacity: 1;
         color: white; }
@@ -334,7 +330,7 @@ iframe.twitter-share-button {
 .button-location {
   float: left;
   clear: both;
-  margin-left: 59px;
+  margin-left: 50px;
   margin-bottom: 50px; }
   .button-location a {
     background-position: 85% 80%;
@@ -384,7 +380,7 @@ iframe.twitter-share-button {
   position: fixed;
   right: 0;
   top: 60px;
-  z-index: -1; }
+  z-index: 1; }
   .schedule-summary ul {
     list-style: none;
     float: right;
@@ -403,6 +399,21 @@ iframe.twitter-share-button {
       .schedule-summary ul li a {
         font-style: normal;
         text-decoration: none; }
+
+.schedule-sponsors {
+  z-index: 10;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  clear: both;
+  padding: 10px 20px 0; }
+  .schedule-sponsors h6 {
+    text-align: left; }
+  .schedule-sponsors a {
+    display: block; }
+    .schedule-sponsors a img {
+      text-align: right;
+      float: left; }
 
 .location-content {
   position: absolute;
@@ -503,29 +514,34 @@ body.location footer {
   .about-content h6 {
     margin-top: 50px; }
 
-img.team {
+.team {
+  width: 25%;
+  float: right; }
+  .team img {
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: -40px; }
+
+.video-container {
   position: relative;
-  float: right;
-  margin-top: 50px;
-  width: 30%;
-  right: -20px; }
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+  .video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 @media all and (min-width: 1200px) {
   header nav a {
-    padding-right: 45px; }
-
-  .background {
-    background-image: url(../images/bg/bg-about.jpg); }
-    .background.background-about {
-      background-image: url(../images/bg/bg-about.jpg); }
-    .background.background-schedule {
-      background-image: url(../images/bg/bg-schedule.jpg); } }
+    padding-right: 45px; } }
 @media all and (max-width: 1200px) and (min-width: 1050px) {
-  .background {
-    background-image: url(../images/bg/bg-about.jpg); }
-    .background.background-schedule {
-      background-image: url(../images/bg/bg-schedule.jpg); }
-
   header a.logo {
     padding-bottom: 0; }
   header nav ul {
@@ -537,12 +553,15 @@ img.team {
     position: absolute;
     top: 0;
     right: 0; } }
+@media all and (max-width: 750px) {
+  .team {
+    float: left;
+    width: 100%; }
+    .team img {
+      float: left;
+      width: 25%;
+      margin: 5% 0 20% 5%; } }
 @media all and (max-width: 1050px) and (min-width: 750px) {
-  .background {
-    background-image: url(../images/bg/bg-about-m.jpg); }
-    .background.background-schedule {
-      background-image: url(../images/bg/bg-schedule-m.jpg); }
-
   header {
     overflow: visible;
     position: relative;
@@ -564,11 +583,6 @@ img.team {
         top: 0;
         right: 0; } }
 @media all and (max-width: 750px) and (min-width: 670px) {
-  .background {
-    background-image: url(../images/bg/bg-about-s.jpg); }
-    .background.background-schedule {
-      background-image: url(../images/bg/bg-schedule-s.jpg); }
-
   /*toggle nav yo */
   header a.menu-link {
     display: block;
@@ -613,19 +627,9 @@ img.team {
     width: 100%;
     padding-bottom: 0; }
 
-  img.team {
-    position: relative;
-    top: 10px;
-    left: -70px; }
-
   footer h6 {
     display: none; } }
 @media only screen and (max-width: 670px) {
-  .background {
-    background-image: url(../images/bg/bg-about-xs.jpg); }
-    .background.background-schedule {
-      background-image: url(../images/bg/bg-schedule-xs.jpg); }
-
   h1 {
     margin-top: 1em;
     line-height: 1em;

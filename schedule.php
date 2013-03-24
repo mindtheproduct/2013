@@ -10,26 +10,20 @@
 ?>
 
     <h1>Schedule</h1>
-    
-    <!--<div class="schedule-summary">
+    <div class="schedule-sponsors">
+        <h6>Sponsored by</h6>
+        <a href="http://ebay.co.uk"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
+        <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
+    </div>
+    <!--div class="schedule-summary">
+        
     	<ul>
-    		<li><time>9:00</time>Registration</li>
-    		<li><time>9:00</time>Introduction</li>
     		<li><a href="#"><time>10:00</time>Martin Eriksson</a></li>
     		<li><a href="#"><time>11:00</time>Kat Neville</a></li>
     		<li><time>10:00</time>BREAK</li>
-    		<li><a href="#"><time>14:00</time>Kenny Kavanagh</a></li>
-    		<li><a href="#"><time>14:00</time>John Earner</a></li>
-    		<li><time>9:00</time>LUNCH (provided)</li>
-    		<li><a href="#"><time>9:00</time>Charles Adler</a></li>
-    		<li><a href="#"><time>9:00</time>Matt & Hannah</a></li>
-    		<li><a href="#"><time>9:00</time>Tom Loosemore</a></li>
-    		<li><time>9:00</time>BREAK</li>
-    		<li><a href="#"><time>9:00</time>Tom Coates</a></li>
-    		<li><a href="#"><time>9:00</time>Panel: What’s Next</a></li>
-    		<li><time>9:00</time>Closing Remarks</li>
+    		
     	</ul>
-    </div>-->
+    </div-->
     <ul class="schedule-details">
     	
 
