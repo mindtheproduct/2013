@@ -1,4 +1,4 @@
-@import url("//hello.myfonts.net/count/25e0a6");
+@import url("http://hello.myfonts.net/count/25e0a6");
 /* Write your CSS! */
 /* @include normalize */
 /* @include 1140 */
@@ -26,7 +26,7 @@ body {
   font-size: 110%;
   background-color: #000;
   color: white;
-  font-family: 'BrandonGrotesque-Regular';
+  font-family: "BrandonGrotesque-Regular", sans-serif;
   line-height: 1.5;
   height: 100%;
   width: 100%;
@@ -407,16 +407,21 @@ iframe.twitter-share-button {
   z-index: 10;
   position: relative;
   display: block;
-  overflow: hidden;
-  clear: both;
-  padding: 10px 20px 0; }
+  float: right;
+  padding: 20px 40px 20px;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
+  zoom: 1; }
   .schedule-sponsors h6 {
-    text-align: left; }
+    text-align: right; }
   .schedule-sponsors a {
-    display: block; }
+    display: block;
+    float: right;
+    padding-bottom: 20px; }
     .schedule-sponsors a img {
       text-align: right;
-      float: left; }
+      float: right; }
 
 .location-content {
   position: absolute;
@@ -556,6 +561,9 @@ body.location footer {
     position: absolute;
     top: 0;
     right: 0; } }
+@media all and (max-width: 1120px) {
+  .schedule-sponsors {
+    float: left; } }
 @media all and (max-width: 750px) {
   .team {
     float: left;
@@ -565,6 +573,12 @@ body.location footer {
       width: 25%;
       margin: 5% 0 20% 5%; } }
 @media all and (max-width: 1050px) and (min-width: 750px) {
+  h1 {
+    margin-top: 70px; }
+
+  body.location h1 {
+    margin-top: 200px; }
+
   header {
     overflow: visible;
     position: relative;

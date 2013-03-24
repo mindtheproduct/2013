@@ -49,7 +49,7 @@ $grey: #858587;
 .clear{clear: both;}
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/25e0a6");
+@import url("http://hello.myfonts.net/count/25e0a6");
 
   
 @font-face {font-family: 'BrandonGrotesque-Thin';src: url('../webfonts/25E0A6_0_0.eot');src: url('../webfonts/25E0A6_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25E0A6_0_0.woff') format('woff'),url('../webfonts/25E0A6_0_0.ttf') format('truetype');}
@@ -66,7 +66,7 @@ body {
   font-size: 110%;
   background-color: #000;
   color: $white;
-  font-family: 'BrandonGrotesque-Regular';
+  font-family: 'BrandonGrotesque-Regular', sans-serif;
   line-height: 1.5;
   height: 100%;
   width: 100%;
@@ -469,17 +469,20 @@ iframe.twitter-share-button{
 		z-index: 10;
 		position: relative;
 		display: block;
-		overflow: hidden;
-		clear: both;
-		padding: 10px 20px 0;
+		float: right;
+		padding: 20px 40px 20px;
+		@include transparent(#000, 0.7);
 		h6{
-			text-align: left;
+			text-align: right;
 		}
 		a{
 			display: block;
+			float: right;
+			padding-bottom: 20px;
 			img{
 				text-align: right;
-				float: left;
+				float: right;
+
 			}
 		}
 	}
@@ -653,6 +656,11 @@ body.location footer{
 	  	}
 	}
 }
+@media all and (max-width: 1120px){
+	.schedule-sponsors{
+		float: left;
+	}
+}
 @media all and (max-width: 750px){
 	.team{
 		float: left;
@@ -667,6 +675,12 @@ body.location footer{
 }
 
 @media all and (max-width: 1050px) and (min-width: 750px) {
+	h1{
+		margin-top: 70px;
+	}
+	body.location h1{
+		margin-top: 200px;
+	}
 	header{
 	  overflow: visible;
 	  position: relative;

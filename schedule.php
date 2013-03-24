@@ -10,11 +10,7 @@
 ?>
 
     <h1>Schedule</h1>
-    <div class="schedule-sponsors">
-        <h6>Sponsored by</h6>
-        <a href="http://ebay.co.uk"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
-        <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
-    </div>
+    
     <!--div class="schedule-summary">
         
     	<ul>
@@ -97,5 +93,10 @@
     
     </ul>    
 
-  
+  <div class="schedule-sponsors">
+        <h6>Signature sponsor</h6>
+        <a href="http://ebay.co.uk"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
+        <h6>Also sponsored by</h6>
+        <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
+    </div>
 <?php include 'includes/_footer.php'; ?>
