@@ -59,8 +59,8 @@
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <link href="/favicon.ico" rel="shortcut icon" />
-  <link href="/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="http://conference.mindtheproduct.com/2013/favicon.ico" rel="shortcut icon" />
+  <link href="http://conference.mindtheproduct.com/2013/apple-touch-icon.png" rel="apple-touch-icon">
 	  
   <title>Mind The Product Conference :: 29 September 2013 in London - <?php echo $title ?></title>
 
