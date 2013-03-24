@@ -41,7 +41,7 @@ function initialize() {
     marker = new google.maps.Marker({
       position: new google.maps.LatLng(locations[i][1], locations[i][2], locations[i][3]),
       map: map,
-      icon: '../assets/images/marker_'+ i +'.png'
+      icon: 'http://conference.mindtheproduct.com/2013/assets/images/marker_'+ i +'.png'
     });
   }
 
