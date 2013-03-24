@@ -5,7 +5,7 @@
 ?>
 
 
-<div id="map"></div>
+<div id="map" style="height:100%;"></div>
 
 	
 <div class="location-content">
