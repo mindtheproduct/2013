@@ -83,11 +83,22 @@
                 <p>Brant and Patrick are co-authors of The Entrepreneur’s Guide to Customer Development and The Lean Entrepreneur. They both have a long track record of founding and building startups, as well as thought leadership in the Lean Startup movement.</p>
             </div>
         </li>
+        <li>
+            <img src="assets/images/speakers/paul-adams.png" alt="Paul Adams" />
+            <div class="content">
+                <!--<time>9.00am</time>-->
+                <h2>Paul Adams</h2>
+                <p class="position">Global Head of Brand Design, Facebook<br />
+                <a href="http://twitter.com/padday">@padday</a>
+                </p>
+                <p>MARTIN TO WRITE SOMETHING BRILLIANT about product-y products.</p>
+            </div>
+        </li>
     	<li class="coming-soon">
 	    	<img src="assets/images/speakers/coming-soon.png" alt="blank" />
 	    	<div class="content">
 	    		<!--time>10.00am</time-->
-	    		<h2>+3 more speakers to be announced</h2>
+	    		<h2>+2 more speakers to be announced</h2>
 	    	</div>
     	</li>
     
