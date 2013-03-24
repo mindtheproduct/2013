@@ -33,9 +33,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   
   <?php if($page == "home") { ?>
-    <?php if ($detect->isMobile() && $detect->isTablet()) { ?>
-
-    <?php } else { ?>
+    <?php if (!$detect->isMobile()) { ?>
       <link rel="stylesheet" href="assets/css/bigvideo.css" type="text/css" media="screen" />
       <?php include 'includes/_video.php'; ?>
     <?php } ?>
