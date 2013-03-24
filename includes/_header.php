@@ -35,7 +35,7 @@
   <script type="text/javascript" src="assets/js/app.js"></script>
   
   <?php if($page == "home") { ?>
-    <?php if ($detect->isMobile() && !$detect->isTablet()) { ?>
+    <?php if ($detect->isMobile() && $detect->isTablet()) { ?>
 
     <?php } else { ?>
       <link rel="stylesheet" href="assets/css/bigvideo.css" type="text/css" media="screen" />

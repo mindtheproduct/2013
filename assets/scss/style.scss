@@ -105,6 +105,10 @@ body.location{
 	}
 }
 
+body.home .background{
+	background-image: url(../images/bg/sunrise.jpg);
+}
+
 h1{
 	@include transparent(#000, 0.5);
 	font-family: 'BrandonGrotesque-Thin';
@@ -762,6 +766,7 @@ body.location footer{
 	  height: auto;
 	  a.logo{
 		  padding-bottom: 0;
+		  padding-right: 0;
 	  }
 	  nav{
 	  	clear: both;
@@ -883,6 +888,21 @@ body.location footer{
 		height: auto;
 		h6{
 			display: none;
+		}
+		.sponsoring{
+			padding: 10px;
+			background: transparent;
+			top: 0;
+			height: auto;
+			float: right;
+			a{
+				top: 0;
+				left: 0;
+				padding: 20px 0 0;
+				max-width: 200px;
+				text-align: right;
+			}
+
 		}
 	}
 	iframe{
