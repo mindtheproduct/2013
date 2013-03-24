@@ -466,26 +466,27 @@ iframe.twitter-share-button{
 	}
 }
 .schedule-sponsors{
-		z-index: 10;
-		position: relative;
+	z-index: 10;
+	position: relative;
+	display: block;
+	float: right;
+	padding: 20px 40px 20px;
+	@include transparent(#000, 0.7);
+	h6{
+		text-align: right;
 		display: block;
-		float: right;
-		padding: 20px 40px 20px;
-		@include transparent(#000, 0.7);
-		h6{
+		clear: both;
+	}
+	a{
+		display: block;
+		
+		img{
 			text-align: right;
-		}
-		a{
-			display: block;
 			float: right;
-			padding-bottom: 20px;
-			img{
-				text-align: right;
-				float: right;
-
-			}
+			margin-bottom: 20px;
 		}
 	}
+}
 
 .location-content{
 	position: absolute;

@@ -414,14 +414,15 @@ iframe.twitter-share-button {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
   zoom: 1; }
   .schedule-sponsors h6 {
-    text-align: right; }
-  .schedule-sponsors a {
+    text-align: right;
     display: block;
-    float: right;
-    padding-bottom: 20px; }
+    clear: both; }
+  .schedule-sponsors a {
+    display: block; }
     .schedule-sponsors a img {
       text-align: right;
-      float: right; }
+      float: right;
+      margin-bottom: 20px; }
 
 .location-content {
   position: absolute;
