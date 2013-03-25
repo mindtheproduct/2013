@@ -18,7 +18,7 @@
     <div class="sponsors">
     	<h6>Signature sponsor</h6>
       <a href="http://ebay.co.uk"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
-      <h6>Also sponsored by</h6>
+      <h6>Sponsors</h6>
       <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
     </div>
   </div>
