@@ -30,7 +30,7 @@
                 <h2>Caterina Fake</h2>
                 <p class="position">Founder, Findery<br />
                 <a href="https://twitter.com/caterina">@caterina</a></p>
-                <p>Caterina is founder and CEO of Findery, which makes places come alive. Caterina also co-founded Flickr, almost certainly the best photo sharing and management application in the world, and was cofounder of Hunch - building the taste graph for the internet. She serves as Chairman of the Board at Etsy, serves on the board of Creative Commons and is an active angel investor.</p>
+                <p>Caterina is the founder and CEO of Findery but she is best known for co-founding Flickr, almost certainly the best photo sharing and management application out there. She also co-founded Hunch, serves as Chairman of the Board at Etsy, serves on the board of Creative Commons and is an active angel investor.</p>
             </div>
         </li>
     	<li>
@@ -78,8 +78,7 @@
                 <!--<time>9.00am</time>-->
                 <h2>Patrick Vlaskovits and Brant Cooper</h2>
                 <p class="position">Authors, The Lean Entrepreneur<br />
-                <a href="http://twitter.com/pv">Patrick - @pv</a>
-                <a href="http://twitter.com/brantcooper">Brant - @brantcooper</a></p>
+                <a href="http://twitter.com/pv">@pv</a> and <a href="http://twitter.com/brantcooper">@brantcooper</a></p>
                 <p>Brant and Patrick are co-authors of The Entrepreneur’s Guide to Customer Development and The Lean Entrepreneur. They both have a long track record of founding and building startups, as well as thought leadership in the Lean Startup movement.</p>
             </div>
         </li>
@@ -91,7 +90,7 @@
                 <p class="position">Global Head of Brand Design, Facebook<br />
                 <a href="http://twitter.com/padday">@padday</a>
                 </p>
-                <p>MARTIN TO WRITE SOMETHING BRILLIANT about product-y products.</p>
+                <p>Paul helps large global brands and agencies design and build successful long-term experiences on the Facebook platform. He started his career as an Industrial Designer at, among others, Dyson, before going digital as a User Experience consultant at Flow. Before joining Facebook he was a Senior User Experience Researcher at Google, leading the Social UX Research team.</p>
             </div>
         </li>
     	<li class="coming-soon">
