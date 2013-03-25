@@ -61,18 +61,6 @@ body.location {
   .background.background-about {
     background-image: url(../images/bg/drinks.jpg); }
 
-body.home {
-  background: black url(../images/bg/sunrise.jpg) no-repeat center center fixed;
-  width: 100%;
-  height: 100%;
-  display: block;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  top: 0;
-  left: 0; }
-
 h1 {
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.5);
@@ -333,6 +321,8 @@ iframe.twitter-share-button {
   width: 280px;
   float: left;
   padding: 20px 0 200px 30px; }
+  .sponsors a {
+    margin: 10px; }
 
 .button-home {
   float: right; }
@@ -427,10 +417,12 @@ iframe.twitter-share-button {
     display: block;
     clear: both; }
   .schedule-sponsors a {
-    display: block; }
+    display: block;
+    float: right; }
     .schedule-sponsors a img {
       text-align: right;
-      float: right; }
+      float: right;
+      margin: 10px; }
 
 .location-content {
   position: absolute;

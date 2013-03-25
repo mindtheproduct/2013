@@ -20,6 +20,7 @@
       <a href="http://ebay.co.uk"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
       <h6>Sponsors</h6>
       <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
+      <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>
     </div>
   </div>
 </div><!--closes wrapper-->
