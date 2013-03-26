@@ -1,3 +1,5 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("http://hello.myfonts.net/count/25e0a6");
 /* Write your CSS! */
 
 /* @include normalize */
@@ -48,8 +50,7 @@ $grey: #858587;
 
 .clear{clear: both;}
 
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("http://hello.myfonts.net/count/25e0a6");
+
 
   
 @font-face {font-family: 'BrandonGrotesque-Thin';src: url('http://cdn.mindtheproduct.com/conference/2013/assets/webfonts/25E0A6_0_0.eot');src: url('http://cdn.mindtheproduct.com/conference/2013/assets/webfonts/25E0A6_0_0.eot?#iefix') format('embedded-opentype'),url('http://cdn.mindtheproduct.com/conference/2013/assets/webfonts/25E0A6_0_0.woff') format('woff'),url('http://cdn.mindtheproduct.com/conference/2013/assets/webfonts/25E0A6_0_0.ttf') format('truetype');}
@@ -66,7 +67,7 @@ body {
   font-size: 110%;
   background-color: #000;
   color: $white;
-  font-family: 'BrandonGrotesque-Regular', sans-serif;
+  font-family: 'BrandonGrotesque-Regular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 1.5;
   height: 100%;
   width: 100%;
@@ -115,7 +116,7 @@ body.home{
 
 h1{
 	@include transparent(#000, 0.5);
-	font-family: 'BrandonGrotesque-Thin', sans-serif;
+	font-family: 'BrandonGrotesque-Thin', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 350%;
 	color: #fff;
 	padding: 10px 40px 2px 30px;
@@ -146,7 +147,7 @@ h3{
 
 h4{
 	font-size: 35px;
-	font-family: 'BrandonGrotesque-Thin', sans-serif;
+	font-family: 'BrandonGrotesque-Thin', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	line-height: 1.1;
 	font-weight: normal;
 }
@@ -180,7 +181,7 @@ a{
 }
 
 time{
-	font-family: 'BrandonGrotesque-Thin';
+	font-family: 'BrandonGrotesque-Thin', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 140%;
 }
 
@@ -254,7 +255,7 @@ header{
 
 nav{
 	text-transform: uppercase;
-	font-family: 'BrandonGrotesque-Regular';
+	font-family: 'BrandonGrotesque-Regular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 90%;
 	a{
 		color: $white;
