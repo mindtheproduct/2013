@@ -28,7 +28,7 @@
   
   <link rel="stylesheet" href="http://cdn.mindtheproduct.com/conference/2013/assets/css/normalize.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="http://cdn.mindtheproduct.com/conference/2013/assets/css/1140.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="http://cdn.mindtheproduct.com/conference/2013/assets/css/style.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   
