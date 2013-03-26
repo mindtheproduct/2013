@@ -53,8 +53,20 @@ $grey: #858587;
 
 
   
-@font-face {font-family: 'BrandonGrotesque-Thin';src: url('../webfonts/25E0A6_0_0.eot');src: url('../webfonts/25E0A6_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25E0A6_0_0.woff') format('woff'),url('../webfonts/25E0A6_0_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonGrotesque-Regular';src: url('../webfonts/25E0A6_1_0.eot');src: url('../webfonts/25E0A6_1_0.eot?#iefix') format('embedded-opentype'),url('http://cdn.mindtheproduct.com/conference/2013/assets/webfonts/25E0A6_1_0.woff') format('woff'),url('../webfonts/25E0A6_1_0.ttf') format('truetype');}
+@font-face{
+		font-family: 'BrandonGrotesque-Thin';
+		src: url('../webfonts/25E0A6_0_0.eot');
+		src: url('../webfonts/25E0A6_0_0.eot?#iefix') format('embedded-opentype'),
+		url('../webfonts/25E0A6_0_0.woff') format('woff'),
+		url('../webfonts/25E0A6_0_0.ttf') format('truetype');
+	}
+@font-face{
+	font-family: 'BrandonGrotesque-Regular';
+	src: url('../webfonts/25E0A6_1_0.eot');
+	src: url('../webfonts/25E0A6_1_0.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/25E0A6_1_0.woff') format('woff'),
+	url('../webfonts/25E0A6_1_0.ttf') format('truetype');
+}
 
 html {
   height: 100%;
