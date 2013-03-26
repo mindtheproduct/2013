@@ -34,7 +34,17 @@
   
   <?php if($page == "home") { ?>
     <?php if (!$detect->isMobile()) { ?>
+      
       <link rel="stylesheet" href="assets/css/bigvideo.css" type="text/css" media="screen" />
+      <script>
+        $(function () {
+            setTimeout( 
+                function () {
+                    $('.fading').animate({ opacity: 1 }, 500);    
+                }, 500
+            );
+        });
+      </script>
       <?php include 'includes/_video.php'; ?>
     <?php } ?>
   <?php } ?>
@@ -45,6 +55,7 @@
     <script src="assets/js/map.js"></script>
   <?php } ?>
 
+
   <script>
     jQuery(document).ready(function($){
       $('.menu-link').click(function(){
@@ -54,29 +65,16 @@
     });
   </script>
 
-  <!-- Pulled from http://code.google.com/p/html5shiv/ -->
+  <script src="assets/js/app.js"></script>
+
   <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="assets/js/html5.js"></script>
   <![endif]-->
 
   <link href="http://conference.mindtheproduct.com/2013/favicon.ico" rel="shortcut icon" />
   <link href="http://conference.mindtheproduct.com/2013/apple-touch-icon.png" rel="apple-touch-icon">
 	  
   <title>Mind The Product Conference :: 29 September 2013 in London - <?php echo $title ?></title>
-
-  <script>
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-21862375-4']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
   
 </head>
 
@@ -90,7 +88,7 @@
 <?php } ?> 
 
 <?php if($page == "home") { ?> 
-  <div class="wrapper">
+  <div class="wrapper fading">
 <?php } ?> 
 
 

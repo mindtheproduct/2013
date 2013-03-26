@@ -21,6 +21,7 @@
 .transparent{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity:0;opacity:0;}
 .vjs-big-play-button{display:none !important;}
 
-body.home{
-	background-image: none;
+
+.fading{
+	 opacity: 0;
 }

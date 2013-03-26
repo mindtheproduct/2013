@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  
-  // Write your Javascript!
+    setTimeout( 
+        function () {
+            $('.changeme').animate({ opacity: 1 }, 1000);    
+        }, 1000
+    );
 
 });

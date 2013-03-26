@@ -105,6 +105,11 @@ body.location{
 	}
 }
 
+body.home{
+	background: url(../images/mtp-ambience.jpg) no-repeat center center;
+	background-size: cover;
+}
+
 h1{
 	@include transparent(#000, 0.5);
 	font-family: 'BrandonGrotesque-Thin';
