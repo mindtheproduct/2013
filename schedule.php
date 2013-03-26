@@ -26,7 +26,7 @@
         <li>
             <img src="assets/images/speakers/caterina-fake.png" alt="Caterina Fake" />
             <div class="content">
-                <!--<time>9.00am</time>-->
+                <!--<time></time>-->
                 <h2>Caterina Fake</h2>
                 <p class="position">Founder, Findery<br />
                 <a href="https://twitter.com/caterina">@caterina</a></p>
@@ -36,7 +36,7 @@
     	<li>
 	    	<img src="assets/images/speakers/cennydd-bowles.png" alt="Cennydd Bowles" />
 	    	<div class="content">
-	    		<!--<time>9.00am</time>-->
+	    		<!--<time></time>-->
 	    		<h2>Cennydd Bowles</h2>
 	    		<p class="position">Product Designer, Twitter<br />
 	    		<a href="http://twitter.com/cennydd">@cennydd</a></p>
@@ -46,7 +46,7 @@
         <li>
             <img src="assets/images/speakers/tim-harford.png" alt="Tim Harford" />
             <div class="content">
-                <!--<time>9.00am</time>-->
+                <!--<time></time>-->
                 <h2>Tim Harford</h2>
                 <p class="position">The Undercover Economist<br />
                 <a href="http://twitter.com/timharford">@timharford</a></p>
@@ -56,7 +56,7 @@
         <li>
             <img src="assets/images/speakers/kelly-goto.png" alt="Kelly Goto" />
             <div class="content">
-                <!--<time>9.00am</time>-->
+                <!--<time></time>-->
                 <h2>Kelly Goto</h2>
                 <p class="position">Founder and Principal, Gotomedia<br />
                 <p>As an evangelist for design ethnography, Kelly is dedicated to understanding how people integrate products and services into their daily lives. Gotomedia is an industry leader in research-driven, people-friendly interface design and strategy for web, mobile and product solutions for clients including Samsung, Hyundai, and Adobe. Her book, Web Redesign 2.0: Workflow That Works, is a global standard for user-centered design principles.</p>
@@ -65,17 +65,17 @@
         <li>
             <img src="assets/images/speakers/george-berkowski.png" alt="George Berkowski" />
             <div class="content">
-                <!--<time>9.00am</time>-->
+                <!--<time></time>-->
                 <h2>George Berkowski</h2>
                 <p class="position">Chief Product Officer, Hailo<br />
-                <a href="http://twitter.com/spacekowboy">@spacekowboy</a></p>
+                <a href="http://twitter.com/georgeberkowski">@georgeberkowski</a></p>
                 <p>George runs product at hit startup Hailo, one of London’s fastest growing startups and is the Chairman of the MIT Enterprise Forum UK. He co-founded and ran product at WooMe, which grew to 10 million users before being acquired by Zoosk, served as the Head of Internet Strategy and eCommerce at BT, and as the VP of Marketing for MirCorp - who made Dennis Tito the first space tourist by arranging his trip to the ISS.</p>
             </div>
         </li>
         <li>
             <img src="assets/images/speakers/patrick-brant.png" alt="Patrick Vlaskovits and Brant Cooper" />
             <div class="content">
-                <!--<time>9.00am</time>-->
+                <!--<time></time>-->
                 <h2>Patrick Vlaskovits and Brant Cooper</h2>
                 <p class="position">Authors, The Lean Entrepreneur<br />
                 <a href="http://twitter.com/pv">@pv</a> and <a href="http://twitter.com/brantcooper">@brantcooper</a></p>
@@ -85,7 +85,7 @@
         <li>
             <img src="assets/images/speakers/paul-adams.png" alt="Paul Adams" />
             <div class="content">
-                <!--<time>9.00am</time>-->
+                <!--<time></time>-->
                 <h2>Paul Adams</h2>
                 <p class="position">Global Head of Brand Design, Facebook<br />
                 <a href="http://twitter.com/padday">@padday</a>
@@ -96,7 +96,7 @@
     	<li class="coming-soon">
 	    	<img src="assets/images/speakers/coming-soon.png" alt="blank" />
 	    	<div class="content">
-	    		<!--time>10.00am</time-->
+	    		<!--time></time-->
 	    		<h2>+2 more speakers to be announced</h2>
 	    	</div>
     	</li>
@@ -105,7 +105,7 @@
 
   <div class="schedule-sponsors">
         <h6>Signature sponsor</h6>
-        <a href="http://ebay.co.uk"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
+        <a href="http://ebay.com"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
         <h6>Sponsors</h6>
         <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
         <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>

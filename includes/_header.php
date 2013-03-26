@@ -47,6 +47,19 @@
       </script>
       <?php include 'includes/_video.php'; ?>
     <?php } ?>
+  <?php if ($detect->isTablet()) { ?>
+      <style type="text/css">
+        body.home .wrapper{
+            background: url(assets/images/bg/audience.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+        body.home h1{
+          max-width: 80%;
+        }
+      </style>
+  <?php } ?>
+
+
   <?php } ?>
    
   <?php if($page == "location") { ?>

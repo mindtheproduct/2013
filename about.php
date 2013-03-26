@@ -25,8 +25,9 @@
     </div>
 </div>
 <div class="team">
-   <img class="team" src="assets/images/speakers/jana.png" alt="Jana" />
-	<img class="team" src="assets/images/speakers/simon.png" alt="Simon" />
 	<img class="team" src="assets/images/speakers/martin.png" alt="Martin" />
+   	<img class="team" src="assets/images/speakers/jana.png" alt="Jana" />
+	<img class="team" src="assets/images/speakers/simon.png" alt="Simon" />
+	
  </div> 
 <?php include 'includes/_footer.php'; ?>
