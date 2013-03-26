@@ -46,7 +46,7 @@ body.location {
   /* the bottom margin is the negative value of the footer's height */ }
 
 .background {
-  background: black url(../images/bg/speaking.jpg) no-repeat center center fixed;
+  background: black url(../images/bg/audience.jpg) no-repeat center center fixed;
   width: 100%;
   height: 100%;
   display: block;
@@ -60,6 +60,13 @@ body.location {
   left: 0; }
   .background.background-about {
     background-image: url(../images/bg/drinks.jpg); }
+
+body.home {
+  background: black url(../images/bg/audience.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 h1 {
   background-color: transparent;

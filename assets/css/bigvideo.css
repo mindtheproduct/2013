@@ -22,7 +22,7 @@
 .vjs-big-play-button{display:none !important;}
 
 body.home{
-	background-color: #000;
+	background: #000 url(../images/mtp-ambience.png);
 }
 .fading{
 	 opacity: 0;
