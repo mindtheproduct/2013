@@ -17,10 +17,10 @@
     </div> 
     <div class="sponsors">
     	<h6>Signature sponsor</h6>
-      <a href="http://ebay.com"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
+      <a href="http://ebay.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/ebay.png" alt="Ebay" /></a>
       <h6>Sponsors</h6>
-      <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
-      <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>
+      <a href="http://skype.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/skype.png" alt="Skype" /></a>
+      <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>
     </div>
   </div>
 </div><!--closes wrapper-->

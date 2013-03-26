@@ -18,16 +18,16 @@
 	    <p>We are funded by our generous sponsors and ticket sales, and driven by a passion for great products and the people who build them.</p>
 	    
 	    <h6>This site was designed by</h6>
-	    <a href="http://thisiscapra.com"><img src="assets/images/capra-logo.png" alt="Capra" /></a>
+	    <a href="http://thisiscapra.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/capra-logo.png" alt="Capra" /></a>
 	    <div class="video-container">
 	    	<iframe src="http://player.vimeo.com/video/50825718?title=0&amp;byline=0&amp;portrait=0" width="700" height="394" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	    </div>
     </div>
 </div>
 <div class="team">
-	<img class="team" src="assets/images/speakers/martin.png" alt="Martin" />
-   	<img class="team" src="assets/images/speakers/jana.png" alt="Jana" />
-	<img class="team" src="assets/images/speakers/simon.png" alt="Simon" />
+	<img class="team" src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/martin.png" alt="Martin" />
+   	<img class="team" src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/jana.png" alt="Jana" />
+	<img class="team" src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/simon.png" alt="Simon" />
 	
  </div> 
 <?php include 'includes/_footer.php'; ?>

@@ -26,16 +26,16 @@
   <!-- Grid styles for IE -->
   <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
   
-  <link rel="stylesheet" href="assets/css/normalize.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="assets/css/1140.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="http://cdn.mindtheproduct.com/conference/2013/assets/css/normalize.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="http://cdn.mindtheproduct.com/conference/2013/assets/css/1140.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="http://cdn.mindtheproduct.com/conference/2013/assets/css/style.css" type="text/css" media="screen" />
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   
   <?php if($page == "home") { ?>
     <?php if (!$detect->isMobile()) { ?>
       
-      <link rel="stylesheet" href="assets/css/bigvideo.css" type="text/css" media="screen" />
+      <link rel="stylesheet" href="http://cdn.mindtheproduct.com/conference/2013/assets/css/bigvideo.css" type="text/css" media="screen" />
       <script>
         $(function () {
             setTimeout( 
@@ -60,8 +60,8 @@
    
   <?php if($page == "location") { ?>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script src="assets/js/richmarker-compiled.js"></script>
-    <script src="assets/js/map.js"></script>
+    <script src="http://cdn.mindtheproduct.com/conference/2013/assets/js/richmarker-compiled.js"></script>
+    <script src="http://cdn.mindtheproduct.com/conference/2013/assets/js/map.js"></script>
   <?php } ?>
 
 

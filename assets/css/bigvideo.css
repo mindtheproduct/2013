@@ -22,7 +22,7 @@
 .vjs-big-play-button{display:none !important;}
 
 body.home{
-	background: #000 url(../images/mtp-ambience.png);
+	background: #000 url(http://cdn.mindtheproduct.com/conference/2013/assets/mtp-ambience.png);
 }
 .fading{
 	 opacity: 0;

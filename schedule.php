@@ -24,7 +24,7 @@
     	
 
         <li>
-            <img src="assets/images/speakers/caterina-fake.png" alt="Caterina Fake" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/caterina-fake.png" alt="Caterina Fake" />
             <div class="content">
                 <!--<time></time>-->
                 <h2>Caterina Fake</h2>
@@ -34,7 +34,7 @@
             </div>
         </li>
     	<li>
-	    	<img src="assets/images/speakers/cennydd-bowles.png" alt="Cennydd Bowles" />
+	    	<img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/cennydd-bowles.png" alt="Cennydd Bowles" />
 	    	<div class="content">
 	    		<!--<time></time>-->
 	    		<h2>Cennydd Bowles</h2>
@@ -44,7 +44,7 @@
 	    	</div>
     	</li>
         <li>
-            <img src="assets/images/speakers/tim-harford.png" alt="Tim Harford" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/tim-harford.png" alt="Tim Harford" />
             <div class="content">
                 <!--<time></time>-->
                 <h2>Tim Harford</h2>
@@ -54,7 +54,7 @@
             </div>
         </li>
         <li>
-            <img src="assets/images/speakers/kelly-goto.png" alt="Kelly Goto" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/kelly-goto.png" alt="Kelly Goto" />
             <div class="content">
                 <!--<time></time>-->
                 <h2>Kelly Goto</h2>
@@ -63,7 +63,7 @@
             </div>
         </li>
         <li>
-            <img src="assets/images/speakers/george-berkowski.png" alt="George Berkowski" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/george-berkowski.png" alt="George Berkowski" />
             <div class="content">
                 <!--<time></time>-->
                 <h2>George Berkowski</h2>
@@ -73,7 +73,7 @@
             </div>
         </li>
         <li>
-            <img src="assets/images/speakers/patrick-brant.png" alt="Patrick Vlaskovits and Brant Cooper" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/patrick-brant.png" alt="Patrick Vlaskovits and Brant Cooper" />
             <div class="content">
                 <!--<time></time>-->
                 <h2>Patrick Vlaskovits and Brant Cooper</h2>
@@ -83,7 +83,7 @@
             </div>
         </li>
         <li>
-            <img src="assets/images/speakers/paul-adams.png" alt="Paul Adams" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/paul-adams.png" alt="Paul Adams" />
             <div class="content">
                 <!--<time></time>-->
                 <h2>Paul Adams</h2>
@@ -94,7 +94,7 @@
             </div>
         </li>
     	<li class="coming-soon">
-	    	<img src="assets/images/speakers/coming-soon.png" alt="blank" />
+	    	<img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/coming-soon.png" alt="blank" />
 	    	<div class="content">
 	    		<!--time></time-->
 	    		<h2>+2 more speakers to be announced</h2>
@@ -105,9 +105,9 @@
 
   <div class="schedule-sponsors">
         <h6>Signature sponsor</h6>
-        <a href="http://ebay.com"><img src="assets/images/logos/ebay.png" alt="Ebay" /></a>
+        <a href="http://ebay.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/ebay.png" alt="Ebay" /></a>
         <h6>Sponsors</h6>
-        <a href="http://skype.com"><img src="assets/images/logos/skype.png" alt="Skype" /></a>
-        <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>
+        <a href="http://skype.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/skype.png" alt="Skype" /></a>
+        <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>
     </div>
 <?php include 'includes/_footer.php'; ?>

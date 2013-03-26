@@ -16,21 +16,21 @@
 		<ol>
 			<li>
 				<a class="number" href="https://plus.google.com/107301700070523841598/about?gl=uk&hl=en" target="_blank">1</a>
-				<a href="https://plus.google.com/107301700070523841598/about?gl=uk&hl=en" target="_blank"><img src="assets/images/star.png" alt="4 stars" /></a>
+				<a href="https://plus.google.com/107301700070523841598/about?gl=uk&hl=en" target="_blank"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/star.png" alt="4 stars" /></a>
 				<h5><a href="https://plus.google.com/107301700070523841598/about?gl=uk&hl=en" target="_blank">Grange St Paul's</a></h5>
 				<p>10 Godliman Street<br />
 				from &pound;250/night</p>
 			</li>
 			<li>
 				<a class="number" href="https://plus.google.com/101867957883352898692/about?gl=uk&hl=en" target="_blank">2</a>
-				<a href="https://plus.google.com/101867957883352898692/about?gl=uk&hl=en" target="_blank"><img src="assets/images/star.png" alt="4 stars" /></a>
+				<a href="https://plus.google.com/101867957883352898692/about?gl=uk&hl=en" target="_blank"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/star.png" alt="4 stars" /></a>
 				<h5><a href="https://plus.google.com/101867957883352898692/about?gl=uk&hl=en" target="_blank">Crown City Plaza</a></h5>
 				<p>19 New Bridge Street<br />
 				from &pound;130/night</p>
 			</li>
 			<li class="last">
 				<a class="number" href="https://plus.google.com/117218290271646451443/about?gl=uk&hl=en" target="_blank">3</a>
-				<a href="https://plus.google.com/117218290271646451443/about?gl=uk&hl=en" target="_blank"><img src="assets/images/star.png" alt="4 stars" /></a>
+				<a href="https://plus.google.com/117218290271646451443/about?gl=uk&hl=en" target="_blank"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/star.png" alt="4 stars" /></a>
 				<h5><a href="https://plus.google.com/117218290271646451443/about?gl=uk&hl=en" target="_blank">Mercure Bankside</a></h5>
 				<p>71 Southwark Street<br />
 				from &pound;105/night</p>
