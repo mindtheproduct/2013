@@ -10,6 +10,5 @@
     <li><a href="location"  <?php if($page == "location") { echo 'class="current"'; } ?>>location</a></li>
     <li><a href="about" <?php if($page == "about") { echo 'class="current"'; } ?>>about</a></li>
   </ul>
-  <div class="button"><a href="http://mindtheproduct2013.eventbrite.com" onclick="_gaq.push(['_link',
-'http://mindtheproduct2013.eventbrite.com']); return false;">Buy Tickets<span>Earlybird just &pound;199</span></a></div>
+  <div class="button"><a href="http://mindtheproduct2013.eventbrite.com">Buy Tickets<span>Earlybird just &pound;199</span></a></div>
 </nav>
