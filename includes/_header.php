@@ -11,18 +11,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="twitter:card"           content="summary">
-  <meta name="twitter:url"            content="http://conference.mindtheproduct.com/">
-  <meta name="twitter:title"          content="Mind The Product 2013 :: Fri 27 Sept 2013 in London">
-  <meta name="twitter:description"    content="Mind the Product 2013 is a conference that brings together product leaders from around the world to explore the intersection of design, technology and business in order to inspire you to build products your customers love.">
-  <meta name="twitter:image"          content="http://conference.mindtheproduct.com/assets/images/bg/speaking.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://conference.mindtheproduct.com/">
+  <meta name="twitter:title" content="Mind The Product 2013 - Fri 27 Sept 2013 in London">
+  <meta name="twitter:description" content="Mind the Product 2013 is a conference that brings together product leaders from around the world to explore the intersection of design, technology and business in order to inspire you to build products your customers love.">
+  <meta name="twitter:image" content="http://conference.mindtheproduct.com/assets/images/bg/speaking.jpg">
 
 
-  <meta property="fb:app_id"          content="240866859264841" /> 
-  <meta property="og:url"             content="http://conference.mindtheproduct.com/" /> 
-  <meta property="og:title"           content="Mind The Product 2013 :: Fri 27 Sept 2013 in London" /> 
-  <meta property="og:image"           content="http://conference.mindtheproduct.com/assets/images/bg/speaking.jpg" /> 
-  <meta property="og:description"     content="Mind the Product 2013 is a conference that brings together product leaders from around the world to explore the intersection of design, technology and business in order to inspire you to build products your customers love." /> 
+  <meta property="fb:app_id" content="240866859264841" /> 
+  <meta property="og:url" content="http://conference.mindtheproduct.com/" /> 
+  <meta property="og:title" content="Mind The Product 2013 - Fri 27 Sept 2013 in London" /> 
+  <meta property="og:image" content="http://conference.mindtheproduct.com/assets/images/bg/speaking.jpg" /> 
+  <meta property="og:description" content="Mind the Product 2013 is a conference that brings together product leaders from around the world to explore the intersection of design, technology and business in order to inspire you to build products your customers love." /> 
   <!-- Grid styles for IE -->
   <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
   
