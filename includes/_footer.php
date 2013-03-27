@@ -16,7 +16,7 @@
 
 		<div class="fb-like" data-href="http://conference.mindtheproduct.com/" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="verdana" data-colorscheme="dark"></div>
 
-		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://http://conference.mindtheproduct.com/" data-via="mindtheproduct">Tweet</a>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://conference.mindtheproduct.com" data-text="Check out Mind the Product 2013, the product event of the year!" data-via="mindtheproduct" data-related="mindtheproduct" data-hashtags="mtpcon">Tweet</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 		<!-- Place this tag where you want the +1 button to render. -->
