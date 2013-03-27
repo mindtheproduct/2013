@@ -23,6 +23,7 @@
   <meta property="og:title" content="Mind The Product 2013 - Fri 27 Sept 2013 in London" /> 
   <meta property="og:image" content="http://conference.mindtheproduct.com/assets/images/bg/speaking.jpg" /> 
   <meta property="og:description" content="Mind the Product 2013 is a conference that brings together product leaders from around the world to explore the intersection of design, technology and business in order to inspire you to build products your customers love." /> 
+  <meta property="og:type" content="website" /> 
   <!-- Grid styles for IE -->
   <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
   
