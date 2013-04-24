@@ -8,7 +8,7 @@
   <div class="content-home">
     <h3><span>FRI  27 SEPT  2013</span> IN LONDON</h3>
   
-    <p>Mind the Product 2013 brings together product leaders from around the world to explore the intersection of design, technology and business in order to inspire you to build products your customers love.</p>
+    <p>Mind the Product 2013 is a one-day, one-track conference that brings together product leaders from around the world to explore the intersection of design, technology and business in order to inspire you to build products your customers love.</p>
 
   </div>
   <div class="home-ctas">
