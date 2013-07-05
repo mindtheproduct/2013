@@ -33,6 +33,15 @@
                 <p>Caterina is the founder and CEO of Findery but she is best known for co-founding Flickr, almost certainly the best photo sharing and management application out there. She also co-founded Hunch, serves as Chairman of the Board at Etsy, serves on the board of Creative Commons and is an active angel investor.</p>
             </div>
         </li>
+        <li>
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/kathy-sierra.png" alt="Kathy Sierra" />
+            <div class="content">
+                <!--<time></time>-->
+                <h2>Kathy Sierra</h2>
+                <p class="position">Blogger &amp; Author<br />
+                <p>Kathy Sierra has for a long time passionately espoused her insights on how to use “brain friendly” techniques to create passionate users. She designed and taught New Media/Interaction Design courses at UCLA Extension before creating the best-selling Head First series of books for O’Reilly and is the author of a Technorati Top 100 blog, “Creating Passionate Users.”</p>
+            </div>
+        </li>
     	<li>
 	    	<img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/cennydd-bowles.png" alt="Cennydd Bowles" />
 	    	<div class="content">
@@ -93,13 +102,17 @@
                 <p>Paul helps large global brands and agencies design and build successful long-term experiences on the Facebook platform. He started his career as an Industrial Designer at, among others, Dyson, before going digital as a User Experience consultant at Flow. Before joining Facebook he was a Senior User Experience Researcher at Google, leading the Social UX Research team.</p>
             </div>
         </li>
-    	<li class="coming-soon">
-	    	<img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/coming-soon.png" alt="blank" />
-	    	<div class="content">
-	    		<!--time></time-->
-	    		<h2>+2 more speakers to be announced</h2>
-	    	</div>
-    	</li>
+        <li>
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/aziz-musa.png" alt="Aziz Musa" />
+            <div class="content">
+                <!--<time></time>-->
+                <h2>Aziz Musa</h2>
+                <p class="position">Global Head of Brand Design, Facebook<br />
+                <a href="http://twitter.com/azizmusa">@azizmusa</a>
+                </p>
+                <p>Aziz runs the Digital Consulting arm of Pegasus, an award winning specialist agency. Previously of PhotoBox, lastminute.com and RBI, Aziz has held just about every product role that exists from Product Owner to Global Product Strategy Director. Aziz presents at various conferences using psychology, philosophy and empirical study to demonstrate the importance of creating beautiful products whilst driving core KPIs.</p>
+            </div>
+        </li>
     
     </ul>    
 
