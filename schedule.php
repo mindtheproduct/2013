@@ -67,8 +67,8 @@
             <div class="content">
                 <!--<time></time>-->
                 <h2>Kelly Goto</h2>
-                <p class="position">Founder and Principal, Gotomedia<br />
-                <p>As an evangelist for design ethnography, Kelly is dedicated to understanding how people integrate products and services into their daily lives. Gotomedia is an industry leader in research-driven, people-friendly interface design and strategy for web, mobile and product solutions for clients including Samsung, Hyundai, and Adobe. Her book, Web Redesign 2.0: Workflow That Works, is a global standard for user-centered design principles.</p>
+                <p class="position">Founder and Principal, <a href="http://www.gotomedia.com">gotomedia</a><br />
+                <p>As an evangelist for design ethnography, Kelly is dedicated to understanding how people integrate products and services into their daily lives. gotomedia is an industry leader in research-driven, people-friendly interface design and strategy for web, mobile and product solutions for clients including Samsung, Hyundai, and Adobe. Her book, Web Redesign 2.0: Workflow That Works, is a global standard for user-centered design principles.</p>
             </div>
         </li>
         <li>
@@ -96,10 +96,10 @@
             <div class="content">
                 <!--<time></time>-->
                 <h2>Paul Adams</h2>
-                <p class="position">Global Head of Brand Design, Facebook<br />
+                <p class="position">Head of Product Design, Intercom<br />
                 <a href="http://twitter.com/padday">@padday</a>
                 </p>
-                <p>Paul helps large global brands and agencies design and build successful long-term experiences on the Facebook platform. He started his career as an Industrial Designer at, among others, Dyson, before going digital as a User Experience consultant at Flow. Before joining Facebook he was a Senior User Experience Researcher at Google, leading the Social UX Research team.</p>
+                <p>Paul runs product design at Intercom.io. He started his career as an Industrial Designer at, among others, Dyson, before going digital as a User Experience consultant at Flow. Before joining Intercom.io he was a Senior User Experience Researcher at Google, leading the Social UX Research team, and the Global Head of Brand Design at Facebook.</p>
             </div>
         </li>
         <li>
@@ -107,7 +107,7 @@
             <div class="content">
                 <!--<time></time>-->
                 <h2>Aziz Musa</h2>
-                <p class="position">Global Head of Brand Design, Facebook<br />
+                <p class="position">Digital Director, Pegasus<br />
                 <a href="http://twitter.com/azizmusa">@azizmusa</a>
                 </p>
                 <p>Aziz runs the Digital Consulting arm of Pegasus, an award winning specialist agency. Previously of PhotoBox, lastminute.com and RBI, Aziz has held just about every product role that exists from Product Owner to Global Product Strategy Director. Aziz presents at various conferences using psychology, philosophy and empirical study to demonstrate the importance of creating beautiful products whilst driving core KPIs.</p>
