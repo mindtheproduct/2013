@@ -137,7 +137,7 @@ a {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
   a:hover {
-    opacity: 0.6; }
+    color: #00aeef; }
 
 time {
   font-family: "BrandonGrotesque-Thin", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -180,6 +180,7 @@ time {
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out; }
     .button a:hover {
+      color: white;
       opacity: 1;
       text-shadow: 1px 1px 2px white;
       -webkit-text-shadow: 1px 1px 2px white;
@@ -383,6 +384,12 @@ iframe.twitter-share-button {
         margin-bottom: 0; }
         .schedule-details li .content p.position {
           padding-bottom: 10px; }
+          .schedule-details li .content p.position a {
+            text-decoration: none;
+            border-bottom: 1px solid white;
+            line-height: 1.9; }
+            .schedule-details li .content p.position a:hover {
+              border-color: #00aeef; }
       .schedule-details li .content h3 {
         padding: 14px 16px 13px;
         background-color: transparent;

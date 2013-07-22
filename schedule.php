@@ -53,7 +53,7 @@
             </div>
         </li>
         <li>
-            <a id="sierra" />
+            <a id="sierra"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/kathy-sierra.png" alt="Kathy Sierra" />
             <div class="content">
                 <time>10.15</time>
@@ -63,7 +63,7 @@
             </div>
         </li>
         <li>
-            <a id="berkowski" />
+            <a id="berkowski"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/george-berkowski.png" alt="George Berkowski" />
             <div class="content">
                 <time>11.00</time>
@@ -80,7 +80,7 @@
             </div>
         </li>
         <li>
-            <a id="harford" />
+            <a id="harford"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/tim-harford.png" alt="Tim Harford" />
             <div class="content">
                 <time>12.00</time>
@@ -92,7 +92,7 @@
         </li>
 
         <li>
-            <a id="goto" />
+            <a id="goto"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/kelly-goto.png" alt="Kelly Goto" />
             <div class="content">
                 <time>12:30</time>
@@ -102,7 +102,7 @@
             </div>
         </li>
         <li>
-            <a id="lunch" />
+            <a id="lunch"> </a>
             <img src="assets/images/speakers/rackspace-sponsors.png" alt="Sponsored by Rackspace" />
             <div class="content">
                 <time>13.00</time>
@@ -112,7 +112,7 @@
             </div>
         </li>
         <li>
-            <a id="vlaskovitscooper" />
+            <a id="vlaskovitscooper"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/patrick-brant.png" alt="Patrick Vlaskovits and Brant Cooper" />
             <div class="content">
                 <time>14.30</time>
@@ -123,7 +123,7 @@
             </div>
         </li>
         <li>
-            <a id="bowles" />
+            <a id="bowles"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/cennydd-bowles.png" alt="Cennydd Bowles" />
             <div class="content">
                 <time>15.00</time>
@@ -134,7 +134,7 @@
             </div>
         </li>
         <li>
-            <a id="musa" />
+            <a id="musa"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/aziz-musa.png" alt="Aziz Musa" />
             <div class="content">
                 <time>15.30</time>
@@ -152,7 +152,7 @@
             </div>
         </li>
         <li>
-            <a id="adams" />
+            <a id="adams"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/paul-adams.png" alt="Paul Adams" />
             <div class="content">
                 <time>16.30</time>
@@ -164,7 +164,7 @@
             </div>
         </li>
         <li>
-            <a id="fake" />
+            <a id="fake"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/caterina-fake.png" alt="Caterina Fake" />
             <div class="content">
                 <time>17.00</time>
@@ -181,7 +181,7 @@
             </div>
         </li>
         <li>
-            <a id="party" />
+            <a id="party"> </a>
             <img src="assets/images/speakers/ebay-sponsors.png" alt="Ebay" />
             <div class="content">
                 <time>18.00</time>
