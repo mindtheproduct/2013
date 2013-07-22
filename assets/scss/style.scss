@@ -352,7 +352,7 @@ footer{
 }
 
 .fb_edge_widget_with_comment{
-	top: -5px;
+	top: 2px;
 	margin: 0 10px;
 }
 
@@ -425,6 +425,9 @@ iframe.twitter-share-button{
 		&.coming-soon .content h2{
 			margin-top: 10%;
 		}
+		&.non-speaker{
+			margin-left: 25%;
+		}
 		img{
 			display: block;
 			float: left;
@@ -450,6 +453,13 @@ iframe.twitter-share-button{
 					padding-bottom: 10px;
 				}
 			}
+			h3{
+				padding: 14px 16px 13px;
+				@include transparent(#000, 0.5);
+				display: inline-block;
+				color: $white;
+				font-size: 0.95em;
+			}	
 		}
 	}
 }
@@ -458,18 +468,20 @@ iframe.twitter-share-button{
 	background: url(http://cdn.mindtheproduct.com/conference/2013/assets/images/circle-schedule.png) no-repeat 0 0;
 	width: 388px;
 	height: 650px;
-	position: fixed;
+	position: absolute;
+	top: 100px;
 	right: 0;
-	top: 60px;
+	float: right;
 	z-index: 1;
+	font-size: 0.9em;
 	ul{
 		list-style: none;
 		float: right;
-		padding: 90px 50px 50px 0;
+		padding: 90px 15px 50px 0;
 		li{
 			color: $grey;
 			font-style: italic;
-			line-height: 1.8;
+			line-height: 1.6;
 			time{
 				font-size: 100%;
 				padding-right: 10px;
@@ -477,10 +489,16 @@ iframe.twitter-share-button{
 				display: block;
 				float: left;
 				width: 100px;
+				position: relative;
+				top: 2px;
 			}
 			a{
 				font-style: normal;
 				text-decoration: none;
+				span{
+					margin-left: 110px;
+					display: block;
+				}
 			}
 		}
 	}
@@ -491,6 +509,7 @@ iframe.twitter-share-button{
 	display: block;
 	float: right;
 	padding: 20px 40px 20px;
+	clear: right;
 	h6{
 		text-align: right;
 		display: block;
@@ -643,13 +662,10 @@ body.location footer{
 }
 
 @media all and (min-width: 1200px) {
-	header{
-	  	nav{
-	  		a{
-	  			padding-right: 45px;
-	  		}
-	  	}
+	header nav a{
+		padding-right: 45px;
 	}
+
 }
 
 
@@ -674,11 +690,23 @@ body.location footer{
 	  	}
 	}
 }
-@media all and (max-width: 1120px){
-	.schedule-sponsors{
-		float: left;
+@media all and (max-width: 1270px){
+	.schedule-details li .content{
+		max-width: 550px;
 	}
 }
+@media all and (max-width: 1170px){
+	.schedule-details li .content{
+		max-width: 450px;
+	}
+}
+
+@media all and (max-width: 1050px){
+	.schedule-details li {
+		padding-top: 30px;
+	}
+}
+
 @media all and (max-width: 750px){
 	.team{
 		float: left;
@@ -690,6 +718,36 @@ body.location footer{
 			margin: 5% 0 20% 5%;
 		}
 	}
+	.schedule-summary{
+		background-image: none;
+		width: auto;
+		height: auto;
+		top: 0;
+		right: 0;
+		position: absolute;
+		ul{
+			display: none;
+		}
+		.schedule-sponsors{
+			position: absolute;
+			top: 30px;
+			right: 0;
+			a{
+				float: none;
+				img{
+					
+				}
+			}
+		}
+	}
+	.schedule-details li{
+		padding-top: 15px;
+		.content{
+			h3{
+				padding: 6px 10px;
+			}
+		}	
+	} 
 }
 
 @media all and (max-width: 1050px) and (min-width: 750px) {
@@ -724,6 +782,27 @@ body.location footer{
 	  			right: 0;
 	  		}
 	  	}
+	}
+	.schedule-details li .content{
+		max-width: 390px;
+	}
+	.schedule-summary{
+		background-image: none;
+
+	}
+}
+@media all and (max-width: 800px) and (min-width: 750px) {
+	.schedule-details li .content{
+		max-width: 330px;
+	}
+}
+
+@media all and (max-width: 1050px) and (min-width: 880px) {
+	.schedule-details{
+		position: relative;
+		li .content{
+			max-width: 450px;
+		} 
 	}
 }
 
@@ -778,6 +857,10 @@ body.location footer{
 			display: none;
 		}
 	}
+	.schedule-summary .schedule-sponsors{
+		top: 120px;
+	}
+
 }
 
 @media only screen and (max-width : 670px) {
@@ -912,6 +995,9 @@ body.location footer{
 		  			font-size: 100%;
 		  			padding-bottom: 0px;
 		  		}
+		  		p{
+		  			font-size: 0.9em;
+		  		}
 	  		}
 		}
 	}
@@ -947,6 +1033,24 @@ body.location footer{
 	}
 	.fb_edge_widget_with_comment{
 		margin: 0;
+	}
+	.schedule-summary{
+		position: relative;
+		ul{
+			display: none;
+		}
+		.schedule-sponsors{
+			padding: 0 10px 0 0;
+			h6{
+				display: none;
+			}
+			a{
+				width: 50px;
+				img{
+					width: 100%;
+				}
+			}
+		}
 	}
 }
 

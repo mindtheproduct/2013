@@ -10,19 +10,18 @@
 ?>
 
     <h1>Schedule</h1>
-    
     <div class="schedule-summary">
         
-    	<ul>
-            <li><time>09.00</time>Registration</a></li>
-    		<li><time>10.00</time>Intro</a></li>
-    		<li><a href="#sierra"><time>10.15</time>Kathy Sierra</a></li>
+        <ul>
+            <li><time>09.00</time>Registration</li>
+            <li><time>10.00</time>Intro</a></li>
+            <li><a href="#sierra"><time>10.15</time>Kathy Sierra</a></li>
             <li><a href="#berkowski"><time>11.00</time>George Berkowski</a></li>
-    		<li><time>11.30</time>Break</li>
-    		<li><a href="#harford"><time>12.00</time>Tim Harford</a></li>
+            <li><time>11.30</time>Break</li>
+            <li><a href="#harford"><time>12.00</time>Tim Harford</a></li>
             <li><a href="#goto"><time>12.30</time>Kelly Goto</a></li>
-            <li><a href="#lunch"><time>13.00</time>Rackspace Lunch (provided)</a></li>
-            <li><a href="#vlaskovitscooper"><time>14.30</time>Patrick Vlaskovits &amp; Brant Cooper</a></li>
+            <li><a href="#lunch"><time>13.00</time>Rackspace Lunch (provided)<span> Workshop 1 name</span><span>Workshop 2 name</span></a></li>
+            <li><a href="#vlaskovitscooper"><time>14.30</time>Patrick &amp; Brant</a></li>
             <li><a href="#bowles"><time>15.00</time>Cennydd Bowles</a></li>
             <li><a href="#musa"><time>15.30</time>Aziz Musa</a></li>
             <li><time>16.00</time>Break</li>
@@ -30,8 +29,16 @@
             <li><a href="#fake"><time>17.00</time>Caterina Fake</a></li>
             <li><time>17.45</time>Closing remarks</li>
             <li><a href="#party"><time>18.00</time>After party by eBay</a></li>
-    	</ul>
+        </ul>
+        <div class="schedule-sponsors">
+            <h6>Signature sponsor</h6>
+            <a href="http://ebay.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/ebay.png" alt="Ebay" /></a>
+            <h6>Sponsors</h6>
+            <a href="http://skype.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/skype.png" alt="Skype" /></a>
+            <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>
+        </div>
     </div>
+   
     <ul class="schedule-details">
     	<li class="non-speaker">
             <div class="content">
@@ -185,12 +192,6 @@
         
     
     </ul>    
-
-  <div class="schedule-sponsors">
-        <h6>Signature sponsor</h6>
-        <a href="http://ebay.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/ebay.png" alt="Ebay" /></a>
-        <h6>Sponsors</h6>
-        <a href="http://skype.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/skype.png" alt="Skype" /></a>
-        <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>
-    </div>
+ 
+  
 <?php include 'includes/_footer.php'; ?>
