@@ -20,7 +20,7 @@
             <li><time>11.30</time>Break</li>
             <li><a href="#harford"><time>12.00</time>Tim Harford</a></li>
             <li><a href="#goto"><time>12.30</time>Kelly Goto</a></li>
-            <li><a href="#lunch"><time>13.00</time>Rackspace Lunch (provided)<span> Workshop 1 name</span><span>Workshop 2 name</span></a></li>
+            <li><a href="#lunch"><time>13.00</time>Lunch by Rackspace<!--span> Workshop 1 name</span><span>Workshop 2 name</span--></a></li>
             <li><a href="#vlaskovitscooper"><time>14.30</time>Patrick &amp; Brant</a></li>
             <li><a href="#bowles"><time>15.00</time>Cennydd Bowles</a></li>
             <li><a href="#musa"><time>15.30</time>Aziz Musa</a></li>
@@ -28,7 +28,7 @@
             <li><a href="#adams"><time>16.30</time>Paul Adams</a></li>
             <li><a href="#fake"><time>17.00</time>Caterina Fake</a></li>
             <li><time>17.45</time>Closing remarks</li>
-            <li><a href="#party"><time>18.00</time>After party by eBay</a></li>
+            <li><a href="#party"><time>18.00</time>Afterparty by eBay</a></li>
         </ul>
         <div class="schedule-sponsors">
             <h6>Signature sponsor</h6>
@@ -43,13 +43,13 @@
     	<li class="non-speaker">
             <div class="content">
                 <time>09.00</time>
-                <h3>Registration</h3>
+                <h2>Registration</h2>
             </div>
         </li>
         <li class="non-speaker">
             <div class="content">
                 <time>10.00</time>
-                <h3>Intro</h3>
+                <h2>Intro</h2>
             </div>
         </li>
         <li>
@@ -76,7 +76,7 @@
         <li class="non-speaker">
             <div class="content">
                 <time>11.30</time>
-                <h3>Break</h3>
+                <h2>Break</h2>
             </div>
         </li>
         <li>
@@ -106,9 +106,9 @@
             <img src="assets/images/speakers/rackspace-sponsors.png" alt="Sponsored by Rackspace" />
             <div class="content">
                 <time>13.00</time>
-                <h2>Rackspace Lunch (provided)</h2>
-                <p>Workshop 1 description goes here</p>
-                <p>Workshop 2 description goes here</p>
+                <h2 class="sponsored">Rackspace Lunch (provided)</h2>
+                <!--p>Workshop 1 description goes here</p>
+                <p>Workshop 2 description goes here</p-->
             </div>
         </li>
         <li>
@@ -148,7 +148,7 @@
         <li class="non-speaker">
             <div class="content">
                 <time>16.00</time>
-                <h3>Break</h3>
+                <h2>Break</h2>
             </div>
         </li>
         <li>
@@ -177,7 +177,7 @@
         <li class="non-speaker">
             <div class="content">
                 <time>17.45</time>
-                <h3>Closing remarks</h3>
+                <h2>Closing remarks</h2>
             </div>
         </li>
         <li>
@@ -185,8 +185,8 @@
             <img src="assets/images/speakers/ebay-sponsors.png" alt="Ebay" />
             <div class="content">
                 <time>18.00</time>
-                <h2>After Party by ebay</h2>
-                <p>Workshop 1 description goes here</p>
+                <h2 class="sponsored">Afterparty by eBay</h2>
+                <p>Mingle and talk about what you've learned over cocktails and food. Open bar till our tab runs out!</p>
             </div>
         </li>
         

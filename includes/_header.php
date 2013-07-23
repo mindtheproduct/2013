@@ -72,7 +72,15 @@
         $('nav').toggleClass('open');
         return false;
       });
+      $('a').click(function(){
+          $('html, body').animate({
+              scrollTop: $( $.attr(this, 'href') ).offset().top
+          }, 500);
+          return false;
+      });
     });
+
+
   </script>
 
   <script src="assets/js/app.js"></script>

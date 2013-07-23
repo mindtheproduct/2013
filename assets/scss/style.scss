@@ -186,7 +186,7 @@ p{
 a{
 	color: $white;
 	text-decoration: underline;
-	@include transition(all, 0.5s, ease-in-out);
+	@include transition(all, 0.3s, ease-in-out);
 	&:hover{
 		color: $blue;
 	}
@@ -428,6 +428,9 @@ iframe.twitter-share-button{
 		}
 		&.non-speaker{
 			margin-left: 25%;
+			h2{
+				color: $white;
+			}
 		}
 		img{
 			display: block;
@@ -444,7 +447,10 @@ iframe.twitter-share-button{
 				display: block;
 				float: left;
 				clear: both;	
-				padding: 10px 30px 5px;			
+				padding: 10px 30px 5px;	
+				&.sponsored{
+					color: $white;
+				}		
 			}
 			p{
 				float: none;
@@ -462,13 +468,6 @@ iframe.twitter-share-button{
 					}
 				}
 			}
-			h3{
-				padding: 14px 16px 13px;
-				@include transparent(#000, 0.5);
-				display: inline-block;
-				color: $white;
-				font-size: 0.95em;
-			}	
 		}
 	}
 }
@@ -486,7 +485,7 @@ iframe.twitter-share-button{
 	ul{
 		list-style: none;
 		float: right;
-		padding: 90px 15px 50px 0;
+		padding: 90px 25px 50px 0;
 		li{
 			color: $grey;
 			font-style: italic;

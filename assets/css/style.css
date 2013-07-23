@@ -131,11 +131,11 @@ p {
 a {
   color: white;
   text-decoration: underline;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
   a:hover {
     color: #00aeef; }
 
@@ -360,6 +360,8 @@ iframe.twitter-share-button {
       margin-top: 10%; }
     .schedule-details li.non-speaker {
       margin-left: 25%; }
+      .schedule-details li.non-speaker h2 {
+        color: white; }
     .schedule-details li img {
       display: block;
       float: left;
@@ -378,6 +380,8 @@ iframe.twitter-share-button {
         float: left;
         clear: both;
         padding: 10px 30px 5px; }
+        .schedule-details li .content time.sponsored, .schedule-details li .content h2.sponsored, .schedule-details li .content p.sponsored {
+          color: white; }
       .schedule-details li .content p {
         float: none;
         padding: 10px 30px 40px 30px;
@@ -390,15 +394,6 @@ iframe.twitter-share-button {
             line-height: 1.9; }
             .schedule-details li .content p.position a:hover {
               border-color: #00aeef; }
-      .schedule-details li .content h3 {
-        padding: 14px 16px 13px;
-        background-color: transparent;
-        background-color: rgba(0, 0, 0, 0.5);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
-        zoom: 1;
-        display: inline-block;
-        color: white;
-        font-size: 0.95em; }
 
 .schedule-summary {
   background: url(http://cdn.mindtheproduct.com/conference/2013/assets/images/circle-schedule.png) no-repeat 0 0;
@@ -413,7 +408,7 @@ iframe.twitter-share-button {
   .schedule-summary ul {
     list-style: none;
     float: right;
-    padding: 90px 15px 50px 0; }
+    padding: 90px 25px 50px 0; }
     .schedule-summary ul li {
       color: #858587;
       font-style: italic;
