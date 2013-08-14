@@ -36,6 +36,8 @@
             <h6>Sponsors</h6>
             <a href="http://skype.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/skype.png" alt="Skype" /></a>
             <a href="http://www.eventbrite.co.uk/l/social/?ref=mtp"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/eventbrite.png" alt="Eventbrite" /></a>
+            <br/>
+            <a href="http://www.nexmo.com"><img src="assets/images/logos/nexmo.png" alt="Nexmo" /></a>
         </div>
     </div>
    
