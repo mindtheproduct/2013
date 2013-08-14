@@ -34,7 +34,7 @@
             <h6>Signature sponsor</h6>
             <a href="http://ebay.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/ebay.png" alt="Ebay" /></a>
             <h6>Sponsors</h6>
-            <a href="http://www.nexmo.com"><img src="assets/images/logos/nexmo.png" alt="Nexmo" /></a>
+            <a href="http://www.nexmo.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/nexmo.png" alt="Nexmo" /></a>
             <br/>
             <a href="http://skype.com"><img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/logos/skype.png" alt="Skype" /></a>
             <br/>
@@ -107,7 +107,7 @@
         </li>
         <li>
             <a id="lunch"> </a>
-            <img src="assets/images/speakers/rackspace-sponsors.png" alt="Sponsored by Rackspace" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/rackspace-sponsors.png" alt="Sponsored by Rackspace" />
             <div class="content">
                 <time>13.00</time>
                 <h2 class="sponsored">Rackspace Lunch (provided)</h2>
@@ -186,7 +186,7 @@
         </li>
         <li>
             <a id="party"> </a>
-            <img src="assets/images/speakers/ebay-sponsors.png" alt="Ebay" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/ebay-sponsors.png" alt="Ebay" />
             <div class="content">
                 <time>18.00</time>
                 <h2 class="sponsored">Afterparty by eBay</h2>
