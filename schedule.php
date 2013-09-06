@@ -26,7 +26,7 @@
             <li><a href="#musa"><time>15.30</time>Aziz Musa</a></li>
             <li><time>16.00</time>Break</li>
             <li><a href="#adams"><time>16.30</time>Paul Adams</a></li>
-            <li><a href="#fake"><time>17.00</time>Caterina Fake</a></li>
+            <li><a href="#hunt"><time>17.00</time>Tara Hunt</a></li>
             <li><time>17.45</time>Closing remarks</li>
             <li><a href="#party"><time>18.00</time>Afterparty by eBay</a></li>
         </ul>
@@ -173,13 +173,13 @@
         </li>
         <li>
             <a id="fake"> </a>
-            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/caterina-fake.png" alt="Caterina Fake" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/tara-hunt.png" alt="Tara Hunt" />
             <div class="content">
                 <time>17.00</time>
-                <h2>Caterina Fake</h2>
-                <p class="position">Founder, Findery<br />
-                <a href="https://twitter.com/caterina">@caterina</a></p>
-                <p>Caterina is the founder and CEO of Findery but she is best known for co-founding Flickr, almost certainly the best photo sharing and management application out there. She also co-founded Hunch, serves as Chairman of the Board at Etsy, serves on the board of Creative Commons and is an active angel investor.</p>
+                <h2>Tara Hunt</h2>
+                <p class="position">VP Insights and Social Strategy, Lime Foundry<br />
+                <a href="https://twitter.com/missrogue">@missrogue</a></p>
+                <p>Tara, also known as @missrogue, has spent her entire adult life online. She is a pioneer of online and social media marketing, one of the most influential women in technology, wrote one of the first best-seller books on social media marketing, and has spoken all over the world on the subject of social media, product strategy and content.</p>
             </div>
         </li>
         <li class="non-speaker">
