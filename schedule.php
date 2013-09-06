@@ -172,7 +172,7 @@
             </div>
         </li>
         <li>
-            <a id="fake"> </a>
+            <a id="hunt"> </a>
             <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/tara-hunt.png" alt="Tara Hunt" />
             <div class="content">
                 <time>17.00</time>
