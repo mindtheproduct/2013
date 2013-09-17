@@ -15,7 +15,7 @@
         <ul>
             <li><time>09.00</time>Registration</li>
             <li><time>10.00</time>Intro</a></li>
-            <li><a href="#sierra"><time>10.15</time>Kathy Sierra</a></li>
+            <li><a href="#adams"><time>10.15</time>Paul Adams</a></li>
             <li><a href="#berkowski"><time>11.00</time>George Berkowski</a></li>
             <li><time>11.30</time>Break</li>
             <li><a href="#harford"><time>12.00</time>Tim Harford</a></li>
@@ -25,7 +25,7 @@
             <li><a href="#bowles"><time>15.00</time>Cennydd Bowles</a></li>
             <li><a href="#musa"><time>15.30</time>Aziz Musa</a></li>
             <li><time>16.00</time>Break</li>
-            <li><a href="#adams"><time>16.30</time>Paul Adams</a></li>
+            <li><a href="#budd"><time>16.30</time>Andy Budd</a></li>
             <li><a href="#hunt"><time>17.00</time>Tara Hunt</a></li>
             <li><time>17.45</time>Closing remarks</li>
             <li><a href="#party"><time>18.00</time>Afterparty by eBay</a></li>
@@ -61,13 +61,15 @@
             </div>
         </li>
         <li>
-            <a id="sierra"> </a>
-            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/kathy-sierra.png" alt="Kathy Sierra" />
+            <a id="adams"> </a>
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/paul-adams.png" alt="Paul Adams" />
             <div class="content">
                 <time>10.15</time>
-                <h2>Kathy Sierra</h2>
-                <p class="position">Blogger &amp; Author</p>
-                <p>Kathy Sierra has for a long time passionately espoused her insights on how to use “brain friendly” techniques to create passionate users. She designed and taught New Media/Interaction Design courses at UCLA Extension before creating the best-selling Head First series of books for O’Reilly and is the author of a Technorati Top 100 blog, “Creating Passionate Users.”</p>
+                <h2>Paul Adams</h2>
+                <p class="position">Head of Product Design, Intercom<br />
+                <a href="http://twitter.com/padday">@padday</a>
+                </p>
+                <p>Paul runs product design at Intercom.io and is the author of “Grouped”. He started his career as an Industrial Designer at Dyson before going digital as a UX consultant at Flow. As a Senior UX Researcher at Google he led the Social UX Research team, where his work influenced the direction of Google+, and where he also worked on Gmail, YouTube, and Mobile. Before joining Intercom.io he was the Global Head of Brand Design at Facebook.</p>
             </div>
         </li>
         <li>
@@ -161,14 +163,14 @@
         </li>
         <li>
             <a id="adams"> </a>
-            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/paul-adams.png" alt="Paul Adams" />
+            <img src="http://cdn.mindtheproduct.com/conference/2013/assets/images/speakers/andy-budd.png" alt="Andy Budd" />
             <div class="content">
                 <time>16.30</time>
-                <h2>Paul Adams</h2>
-                <p class="position">Head of Product Design, Intercom<br />
-                <a href="http://twitter.com/padday">@padday</a>
+                <h2>Andy Budd</h2>
+                <p class="position">Founding Partner, Clearleft<br />
+                <a href="http://twitter.com/andybudd">@andybudd</a>
                 </p>
-                <p>Paul runs product design at Intercom.io. He started his career as an Industrial Designer at, among others, Dyson, before going digital as a User Experience consultant at Flow. Before joining Intercom.io he was a Senior User Experience Researcher at Google, leading the Social UX Research team, and the Global Head of Brand Design at Facebook.</p>
+                <p>Andy Budd is the co-founder of UX consultancy Clearleft and typography start-up Fontdeck. He is also the driving force behind Silverback, a low cost usability testing tool, and a regular speaker at international conferences like The Web 2.0 Expo, An Event Apart and SXSW. He also runs the dConstruct and UX London conferences as well as the Brighton Digital Festival. He sits on the advisory board of .Net magazine and was named in Wired’s Top 100 digital influencers.</p>
             </div>
         </li>
         <li>
