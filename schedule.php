@@ -117,8 +117,7 @@
             <div class="content">
                 <time>13.00</time>
                 <h2 class="sponsored">Rackspace Lunch (provided)</h2>
-                <!--p>Workshop 1 description goes here</p>
-                <p>Workshop 2 description goes here</p-->
+                <p>In the <strong>Queenhithe room</strong> - Rackspace will be hosting a 30 min workshop on <em>Sprint Zero</em> at 13.10 and 13.50</p>
             </div>
         </li>
         <li>
