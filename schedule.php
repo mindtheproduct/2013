@@ -117,7 +117,8 @@
             <div class="content">
                 <time>13.00</time>
                 <h2 class="sponsored">Rackspace Lunch (provided)</h2>
-                <p>In the <strong>Queenhithe room</strong> - Rackspace will be hosting a 30 min workshop on <em>Sprint Zero</em> at 13.10 and 13.50</p>
+                <p>Lunch buffet provided throughout the venue</p>
+                <p>At 13.10 and 13.50 Rackspace will be hosting a 30 min workshop on <em>Sprint Zero</em> in <span style="color:#00aeef;">The Queenhithe Room</span> with their VP of Experience Design and VP Cloud Products.</p>
             </div>
         </li>
         <li>
