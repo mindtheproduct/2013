@@ -118,7 +118,9 @@
                 <time>13.00</time>
                 <h2 class="sponsored">Rackspace Lunch (provided)</h2>
                 <p>Lunch buffet provided throughout the venue</p>
-                <p>At 13.10 and 13.50 Rackspace will be hosting a 30 min workshop on <em>Sprint Zero</em> in <span style="color:#00aeef;">The Queenhithe Room</span> with their VP of Experience Design and VP Cloud Products.</p>
+                <p>At 13.10 and 13.50 Rackspace will be hosting a 30 min workshop on <em>Sprint Zero</em> in <span style="color:#00aeef;">The Queenhithe Room</span> featuring Harry Max, 
+VP Experience Design at Rackspace (<a href="https://twitter.com/harrymax">@harrymax</a>), and Mark Interrante, VP Cloud Products at Rackspace Hosting (<a href="https://twitter.com/interrante">@interrante</a>).
+</p>
             </div>
         </li>
         <li>
