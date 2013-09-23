@@ -78,9 +78,9 @@
             <div class="content">
                 <time>11.00</time>
                 <h2>George Berkowski</h2>
-                <p class="position">Chief Product Officer, Hailo<br />
+                <p class="position">former Head of Product, Hailo<br />
                 <a href="http://twitter.com/georgeberkowski">@georgeberkowski</a></p>
-                <p>George runs product at hit startup Hailo, one of London’s fastest growing startups and is the Chairman of the MIT Enterprise Forum UK. He co-founded and ran product at WooMe, which grew to 10 million users before being acquired by Zoosk, served as the Head of Internet Strategy and eCommerce at BT, and as the VP of Marketing for MirCorp - who made Dennis Tito the first space tourist by arranging his trip to the ISS.</p>
+                <p>George used to run product at hit startup Hailo, one of London’s fastest growing startups, and was one of its first employees. Now he's starting something new. He is the Chairman of the MIT Enterprise Forum UK. He co-founded and ran product at WooMe, which grew to 10 million users before being acquired by Zoosk, served as the Head of Internet Strategy and eCommerce at BT, and as the VP of Marketing for MirCorp - who made Dennis Tito the first space tourist by arranging his trip to the ISS.</p>
             </div>
         </li>
         <li class="non-speaker">
