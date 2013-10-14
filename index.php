@@ -12,15 +12,18 @@
     <p>We hope you enjoyed this year’s sessions.  Missed it?  You can watch the videos, read reviews and more from the event on MindTheProduct’s blog.</p>
 
     <ul>
-      <li><a href="#">Kelly Goto</a></li>
-      <li><a href="#">Andy Budd</a></li>
-      <li><a href="#">Kelly Goto</a></li>
-      <li><a href="#">Kelly Goto</a></li>
-      <li><a href="#">Kelly Goto</a></li>
-      <li><a href="#">Kelly Goto</a></li>
+      <li><a href="http://www.mindtheproduct.com/2013/10/mind-the-product-2013-conference-recap/">Recap Video</a></li>
+      <li><a href="http://www.mindtheproduct.com/2013/10/mind-product-2013-create-amazing-products-exit-billion-dollars-change-future-2/">Recap blog post</a></li>
+
+      <!--
       <li><a href="#">Kelly Goto</a></li>
       <li><a href="#">Kelly Goto</a></li>
       <li><a href="#">Kelly Goto</a></li>
+      <li><a href="#">Kelly Goto</a></li>
+      <li><a href="#">Kelly Goto</a></li>
+      <li><a href="#">Kelly Goto</a></li>
+      <li><a href="#">Kelly Goto</a></li>
+    -->
     </ul>
   </div>
 
