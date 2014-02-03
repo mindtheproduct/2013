@@ -322,6 +322,9 @@ iframe.twitter-share-button {
     text-transform: uppercase; }
   .content-home ul {
     list-style: none; }
+  .content-home li {
+    padding-bottom:10px;
+  }
   .content-home a {
     text-decoration: none;
     color: #00aeef;
