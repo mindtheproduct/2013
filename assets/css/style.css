@@ -331,11 +331,11 @@ iframe.twitter-share-button {
 
 .columns {
   padding: 20px 0;
-  -moz-column-count: 3;
+  -moz-column-count: 2;
   /* Firefox */
-  -webkit-column-count: 3;
+  -webkit-column-count: 2;
   /* Safari and Chrome */
-  column-count: 3;
+  column-count: 2;
   -moz-column-gap: 30px;
   /* Firefox */
   -webkit-column-gap: 30px;
