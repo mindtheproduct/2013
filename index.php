@@ -19,13 +19,13 @@
     </div>
 
 
-  <h3>Mind the Product will be back on September 12, 2014</h3>
-  <p>Watch this space for more details on our 2014 conference, it'll be even bigger and better!</p>
+  <h3>Mind the Product will be back<br />on September 12, 2014</h3>
+  <p>Watch this space for details on our bigger and better 2014 conference!</p>
 
 
   </div>
 
-  
+
   <div class="home-ctas">
     <div class="sponsors">
     	<h6>Signature sponsor</h6>
